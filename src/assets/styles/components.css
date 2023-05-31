@@ -1,0 +1,85 @@
+/* Header Component */
+
+.navigation {
+  width: 100% !important;
+  height: 100% !important;
+  font-size: 1rem !important;
+  background-color: var(--emerald-green);
+  justify-content: space-around !important;
+  }
+
+.navIcons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-decoration: none !important;
+}
+
+.navbarIcons {
+  font-size: 2rem !important;
+  color: var(--dark-green) !important;
+  padding: 10px;
+}
+
+.navbarIcons:hover {
+  font-size: 2rem !important;
+  color: var(--cream) !important;
+  padding: 10px;
+}
+
+.navbarBrand {
+  color:var(--cream) !important;
+  font-size: 100%;
+  margin-left: 0;
+}
+
+.navLink {
+  color: var(--dark-green) !important;
+  font-size: 60%;
+  border-radius: 20px;
+  width: auto;
+}
+
+.navLink:hover {
+  background-color: var(--cream);
+  border-radius: 20px;
+  width: auto;
+}
+
+
+
+/* About Component */
+
+.aboutCard {
+  font-size: 100%;
+  text-align: center;
+  border-radius: 20px;
+  padding: 1%;
+  margin-bottom: 5%;
+}
+
+.aboutContainer {
+  width: 80%;
+}
+
+.aboutText {
+  font-size: 100%;
+  text-align: center;
+  background-color: var(--emerald-green);
+  border: solid 10px var(--dark-green);
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+/*  Footer Component */
+
+.footer {
+  width: 100%;
+  font-size: 1rem !important;
+  text-align: center;
+  padding: 1rem;
+ margin: 0;
+ background-color: var(--emerald-green);
+ color: var(--mint);
+}

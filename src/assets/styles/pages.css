@@ -1,0 +1,134 @@
+/* General Page Layout */
+.pageBackground {
+  background-color: var(--cream);
+  text-align: center;
+  padding: 1%;
+  margin: 0;
+  min-height: 87vh;
+}
+
+/* Home Page */
+
+.homePageTitle {
+  color: var(--black) !important;
+  text-align: center;
+}
+
+.homeSubtitle {
+  text-align: center;
+  color: var(--dblack);
+  padding-bottom: 5%;
+}
+
+.aboutMePosition {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  width: 80%;
+}
+
+.homeImage {
+width: 30%;
+border-radius: 20px;
+}
+
+/* Contact Page */
+
+.pageTitle {
+  color: var(--black);
+}
+.contact {
+  font-size: 400%;
+}
+
+.contactText {
+  text-align: center;
+  margin: 0 auto 50px auto;
+  padding: 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 20px;
+  width: 80%;
+}
+
+.buttonGroup {
+  color: var(--emerald-green);
+color: var(--black);
+}
+
+.fa {
+  font-size: 6rem;
+  font-weight: bold;
+  color: var(--emerald-green);
+}
+
+.fa:hover {
+  font-size: 5rem;
+}
+
+span {
+  display: flex;
+  justify-content: space-around;
+  margin: 0% 20% 0% 20%;
+  align-items: center;
+}
+
+/* Page Not Found */
+
+.notFoundPageContainer {
+  width: 100%;
+  background-color: var(--mint);
+  height: 85vh;
+}
+
+.notFoundPageInner {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.notFoundPageContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 20px solid var(--emerald-green);
+  border-radius: 20px;
+  width: 80%;
+  background-color: var(--emerald-green);
+  color: var(--mint);
+}
+
+.notFoundPageContent div {
+  width: 100%;
+  height: 100%;
+  min-height: 400px;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.notFoundPageContent div:nth-child(1) {
+  justify-content: center;
+  align-items: center;
+}
+
+.notFoundPageContent p {
+  font-size: 1rem;
+}
+
+.notFoundPageContent span {
+  font-size: 2rem;
+}
+
+.notFoundPageContent a {
+  color: var(--mint);
+}
+
+.notFoundPageContent img {
+  display: flex;
+  width: 200%;
+}

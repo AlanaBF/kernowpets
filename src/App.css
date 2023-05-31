@@ -1,0 +1,86 @@
+:root {
+  text-align: center;
+  --mint: #69bf87;
+  --lime-green: #64bf4b;
+  --emerald-green: #559166;
+  --black: #0d0c0a;
+  --cream: #f2f0d5;
+  --brown: #8c7561;
+  --dark-green: #1f261a;
+  width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Yeseva One", cursive;
+  margin: 0;
+  text-align: center;
+  color: var(--dark-green);
+}
+
+p {
+  font-family: "Josefin Sans", sans-serif;
+  margin: 0;
+  text-align: center;
+  color: var(--dark-green);
+}
+
+li {
+  list-style-type: none;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  /* Apply animation only if reduced motion is not preferred */
+  a.logo-link .abfLogo {
+    animation: spin infinite 20s linear;
+  }
+}
+
+/* Media Queries */
+
+@media (max-width: 900px) {
+  .title {
+    width: 100%;
+    text-align: center;
+    font-size: 200%;
+    text-decoration: underline;
+    margin-bottom: 1%;
+    padding: 1rem;
+    font-style: italic;
+  }
+
+  .text {
+    font-size: 70%;
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+    padding: 1%;
+  }
+
+  .brand {
+    text-align: center;
+
+    font-size: 100%;
+  }
+}
