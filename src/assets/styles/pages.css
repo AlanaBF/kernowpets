@@ -36,6 +36,8 @@ border-radius: 20px;
 
 .pageTitle {
   color: var(--black);
+  font-size: 5em;
+  padding-top: 20px;
 }
 .contact {
   font-size: 400%;

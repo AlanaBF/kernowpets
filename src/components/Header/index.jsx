@@ -29,7 +29,14 @@ function Header() {
             <LinkContainer to="/">
               <Nav.Link className="navLink">Home</Nav.Link>
             </LinkContainer>
-           
+            {/* Reptiles */}
+            <LinkContainer to="/Reptiles">
+              <Nav.Link className="navLink">Reptiles</Nav.Link>
+            </LinkContainer>
+           {/* Live Food */}
+           <LinkContainer to="/LiveFood">
+              <Nav.Link className="navLink">Live Food</Nav.Link>
+            </LinkContainer>
             {/* Contacts and info */}
             <LinkContainer to="/Contact">
               <Nav.Link className="navLink">Contact Me</Nav.Link>
@@ -39,14 +46,8 @@ function Header() {
 
           <Nav className="nav navbar-nav flex-row justify-content-md-center justify-content-start flex-nowrap">
             <div className="navIcons">
-              <a href="hhttps://www.facebook.com/kernowpet">
+              <a href="https://www.facebook.com/kernowpet">
                 <i className="fa navbarIcons fa-facebook"></i>
-              </a>
-              <a href="https://github.com/AlanaBF">
-                <i className="fa navbarIcons fa-github"></i>
-              </a>{" "}
-              <a href="https://www.linkedin.com/">
-                <i className="fa navbarIcons fa-linkedin"></i>
               </a>
             </div>
           </Nav>

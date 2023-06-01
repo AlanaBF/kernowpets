@@ -15,14 +15,16 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: "Yeseva One", cursive;
+   font-family: "Josefin Sans", sans-serif;
   margin: 0;
   text-align: center;
   color: var(--dark-green);
 }
 
+
 p {
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Yeseva One", cursive;
+
   margin: 0;
   text-align: center;
   color: var(--dark-green);

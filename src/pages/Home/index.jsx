@@ -7,7 +7,7 @@ function Home() {
     <div className="pageBackground">
       <div>
         <div >
-          <h1 className="homePageTitle">Kernow Pets</h1>
+          <h1 className="pageTitle">Kernow Pets</h1>
         </div>
         <div className="aboutMePosition">
           <About />
