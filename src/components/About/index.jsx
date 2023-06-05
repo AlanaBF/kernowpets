@@ -4,7 +4,7 @@ function About() {
   return (
     <div className="aboutContainer">
       <div className="aboutCard">
-        <p className="aboutText">Website Coming Soon</p>
+        <p className="aboutText">Website Under Construction. <br/> New content being added <br/> keep checking for new information</p>
       </div>
     </div>
   );

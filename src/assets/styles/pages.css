@@ -16,7 +16,7 @@
 
 .homeSubtitle {
   text-align: center;
-  color: var(--dblack);
+  color: var(--black);
   padding-bottom: 5%;
 }
 
@@ -54,14 +54,14 @@ border-radius: 20px;
 }
 
 .buttonGroup {
-  color: var(--emerald-green);
+  color: var(--teal);
 color: var(--black);
 }
 
 .fa {
   font-size: 6rem;
   font-weight: bold;
-  color: var(--emerald-green);
+  color: var(--teal);
 }
 
 .fa:hover {
@@ -96,10 +96,10 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 20px solid var(--emerald-green);
+  border: 20px solid var(--teal);
   border-radius: 20px;
   width: 80%;
-  background-color: var(--emerald-green);
+  background-color: var(--teal);
   color: var(--mint);
 }
 

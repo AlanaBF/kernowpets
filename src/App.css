@@ -1,12 +1,17 @@
 :root {
   text-align: center;
-  --mint: #69bf87;
+  --teal: #3B8C8C;
+  --mint: #6CD9D9;
+  --green: #04BFAD;
+  --black: #40403E;
+  --light-brown: #D9C5AD;
+  /* --mint: #69bf87;
   --lime-green: #64bf4b;
   --emerald-green: #559166;
-  --black: #0d0c0a;
+  --black: #0d0c0a; */
   --cream: #f2f0d5;
-  --brown: #8c7561;
-  --dark-green: #1f261a;
+  /* --brown: #8c7561;
+  --dark-green: #1f261a; */
   width: 100%;
 }
 
@@ -18,16 +23,15 @@ h5 {
    font-family: "Josefin Sans", sans-serif;
   margin: 0;
   text-align: center;
-  color: var(--dark-green);
+  color: var(--black);
 }
 
 
 p {
   font-family: "Yeseva One", cursive;
-
   margin: 0;
   text-align: center;
-  color: var(--dark-green);
+  color: var(--black);
 }
 
 li {

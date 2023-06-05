@@ -4,7 +4,7 @@
   width: 100% !important;
   height: 100% !important;
   font-size: 1rem !important;
-  background-color: var(--emerald-green);
+  background-color: var(--teal);
   justify-content: space-around !important;
   }
 
@@ -17,7 +17,7 @@
 
 .navbarIcons {
   font-size: 2rem !important;
-  color: var(--dark-green) !important;
+  color: var(--mint) !important;
   padding: 10px;
 }
 
@@ -34,14 +34,14 @@
 }
 
 .navLink {
-  color: var(--dark-green) !important;
+  color: var(--cream) !important;
   font-size: 60%;
   border-radius: 20px;
   width: auto;
 }
 
 .navLink:hover {
-  background-color: var(--cream);
+  background-color: var(--mint);
   border-radius: 20px;
   width: auto;
 }
@@ -65,8 +65,8 @@
 .aboutText {
   font-size: 100%;
   text-align: center;
-  background-color: var(--emerald-green);
-  border: solid 10px var(--dark-green);
+  background-color: var(--teal);
+  border: solid 10px var(--black);
   border-radius: 20px;
   padding: 20px;
   margin-top: 50px;
@@ -126,14 +126,14 @@
   font-size: 12px;
 }
 .content h4 {
-  color: var(--bg-darkblue);
+  color: var(--black);
   font-size: 15px;
   font-weight: bold;
 }
 .content h3 {
   font-weight: bold;
   font-size: 17px;
-  color: var(--color-red);
+  color: var(--teal);
 }
 .img-container {
   width: 230px !important;
@@ -147,6 +147,6 @@
   text-align: center;
   padding: 1rem;
  margin: 0;
- background-color: var(--emerald-green);
+ background-color: var(--teal);
  color: var(--mint);
 }
