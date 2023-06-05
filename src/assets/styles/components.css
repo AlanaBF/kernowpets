@@ -65,7 +65,7 @@
 .aboutText {
   font-size: 100%;
   text-align: center;
-  background-color: var(--teal);
+  background-color: var(--mint);
   border: solid 10px var(--black);
   border-radius: 20px;
   padding: 20px;
@@ -136,8 +136,12 @@
   color: var(--teal);
 }
 .img-container {
-  width: 230px !important;
+  width: 100% !important;
   border-radius: 10px !important;
+}
+
+.shopImage {
+  border-radius: 5px;
 }
 /*  Footer Component */
 
