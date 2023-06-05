@@ -6,7 +6,7 @@
   font-size: 1rem !important;
   background-color: var(--teal);
   justify-content: space-around !important;
-  }
+}
 
 .navIcons {
   display: flex;
@@ -28,7 +28,7 @@
 }
 
 .navbarBrand {
-  color:var(--cream) !important;
+  color: var(--cream) !important;
   font-size: 100%;
   margin-left: 0;
 }
@@ -46,8 +46,13 @@
   width: auto;
 }
 
-
-
+/* Hero */
+.bg-image {
+  background-image: url(../images/KernowPetsStore.jpeg);
+  background-size: cover;
+  height: 300px;
+  border-radius: 10px;
+}
 /* About Component */
 
 .aboutCard {
@@ -59,11 +64,10 @@
 }
 
 .aboutContainer {
-  width: 80%;
+  width: 100%;
 }
 
 .aboutText {
-  font-size: 100%;
   text-align: center;
   background-color: var(--mint);
   border: solid 10px var(--black);
@@ -74,9 +78,9 @@
 
 /* Leaflet */
 
-.venue{
+.venue {
   display: grid;
-  grid-template-columns: repeat(1,1fr);
+  grid-template-columns: repeat(1, 1fr);
   padding-bottom: 40px;
 }
 .leaflet-container {
@@ -85,8 +89,11 @@
   margin-top: 30px;
   border-radius: 25px;
   margin: auto;
-  
 }
+.leaflet-popup-close-button {
+  color: var(--mint) !important;
+}
+
 .venue .slogan {
   width: 69%;
   padding: 30px 0px;
@@ -104,7 +111,7 @@
 
 .leaflet-popup-content-wrapper {
   width: fit-content !important;
-  background: rgba(255, 255, 255, 0.55);
+  background: var(--teal);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
@@ -143,6 +150,11 @@
 .shopImage {
   border-radius: 5px;
 }
+
+.custom-icon {
+  font-size: 40px; /* Adjust the font size as needed */
+  color: var(--teal); /* Change the color to your desired color */
+}
 /*  Footer Component */
 
 .footer {
@@ -150,7 +162,7 @@
   font-size: 1rem !important;
   text-align: center;
   padding: 1rem;
- margin: 0;
- background-color: var(--teal);
- color: var(--mint);
+  margin: 0;
+  background-color: var(--teal);
+  color: var(--mint);
 }

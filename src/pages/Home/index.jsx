@@ -2,13 +2,13 @@ import About from "../../components/About";
 import "../../assets/styles/pages.css";
 import image from "../../assets/images/lizard pic.jpeg"
 import OpeningTimes from "../../components/OpeningTimes/OpeningTimes";
+import HeroImage from "../../components/Hero";
+
 function Home() {
   return (
     <div className="pageBackground">
-      <div>
-        <div >
-          <h1 className="pageTitle">Kernow Pets</h1>
-        </div>
+       <HeroImage/>
+       <div>
         <div className="aboutMePosition">
           <About />
          

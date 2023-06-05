@@ -3,6 +3,11 @@ import venues from "./leaflet.json";
 import "leaflet/dist/leaflet.css";
 import Card from "./index";
 import "../../assets/styles/components.css";
+// Create a custom marker icon with a Font Awesome icon
+const customIcon = L.divIcon({
+  className: "custom-icon",
+  html: '<i class="fas fa-location-dot"></i>',
+});
 
 function Map() {
 
@@ -10,7 +15,7 @@ function Map() {
     <MapContainer
       center={[50.33835562786822, -4.795074254148329]}
       zoom={20}
-      scrollWheelZoom={false}
+      scrollWheelZoom={true}
     >
       <TileLayer
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -20,7 +25,7 @@ function Map() {
       {venues.map((p) => {
         return (
           <div key={p.id}>
-            <Marker position={[p.longitude, p.latitude]}>
+            <Marker position={[p.longitude, p.latitude]} icon={customIcon}>
               <Popup>
                 <Card venue={p} />
               </Popup>
