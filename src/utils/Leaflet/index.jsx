@@ -10,7 +10,7 @@ function VenueCard({ venue }) {
         <img alt={name} src={image} className="shopImage" width="100%" />
       </div>
       <div className="content pt-3">
-        <ul> 
+        <ul className="leaflet-card-ul"> 
         <div>
             <h3>{name}</h3>
           </div>

@@ -28,8 +28,15 @@
 }
 
 .homeImage {
-width: 30%;
-border-radius: 20px;
+  width: 30%;
+  border-radius: 20px;
+}
+
+/* Live Food Page */
+.live-food-banner {
+  width: 80%;
+  border-radius: 20px;
+  
 }
 
 /* Contact Page */
@@ -55,8 +62,8 @@ border-radius: 20px;
 
 .buttonGroup {
   color: var(--teal);
-color: var(--black);
-margin: 0;
+  color: var(--black);
+  margin: 0;
 }
 
 .fa {
@@ -90,8 +97,6 @@ span {
   justify-content: center;
   align-items: center;
 }
-
-
 
 .notFoundPageContent {
   display: flex;

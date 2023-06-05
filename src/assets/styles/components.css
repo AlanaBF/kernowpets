@@ -97,11 +97,7 @@
     grid-column: 1; /* Reset grid-column to span the full width */
   }
 }
-/* Opening Times */
-.ul-opening-times {
-  margin: 0;
-  padding: 0;
-}
+
 /* About Component */
 
 .aboutCard {
@@ -130,24 +126,20 @@
 .venue {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  padding-bottom: 40px;
+ 
 }
 .leaflet-container {
-  width: 70%;
+  width: 90%;
   height: 80vh;
-  margin-top: 30px;
   border-radius: 25px;
   margin: auto;
+  text-align: center;
 }
 .leaflet-popup-close-button {
   color: var(--mint) !important;
 }
 
 .venue .slogan {
-  width: 69%;
-  padding: 30px 0px;
-  margin: auto;
-  color: #fff;
   text-align: center;
 }
 
@@ -161,9 +153,6 @@
 .leaflet-popup-content-wrapper {
   width: 100% !important;
   background: var(--teal) !important;
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
   border-radius: 10px;
 }
 
@@ -174,8 +163,6 @@
 .content {
   display: flex;
   flex-direction: column;
-  padding: 0 10px;
-  padding-bottom: 10px;
   background: transparent;
 }
 .content h5 {
@@ -191,6 +178,11 @@
   font-size: 17px;
   color: var(--teal);
 }
+
+.leaflet-card-ul {
+  margin:0;
+  padding:0;
+}
 .img-container {
   width: 100% !important;
   border-radius: 10px !important;
@@ -204,6 +196,117 @@
   font-size: 40px; /* Adjust the font size as needed */
   color: var(--teal); /* Change the color to your desired color */
 }
+
+/* Live Food */
+
+/* .live-food-subtitle {
+  font-family: 'Gloria Hallelujah', cursive;
+}
+.pricing-grid {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.grid-section {
+  flex: 1;
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  table-layout: fixed;
+}
+
+th, td {
+  
+  padding: 8px;
+  text-align: left !important;
+}
+
+.table-heading {
+  text-align: left;
+  padding-left: 20%;
+}
+
+.live-food-subtitle {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.note-box {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 20px auto 0;
+  width: 80%;
+  border-radius: 20px;
+} */
+/* Live Food */
+
+.live-food-subtitle {
+  font-family: 'Gloria Hallelujah', cursive;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.pricing-grid {
+  display: flex;
+  flex-wrap: wrap; /* Allow the sections to wrap on smaller screens */
+  justify-content: center; /* Center the content horizontally */
+  align-items: flex-start; /* Align items to the top */
+}
+
+.grid-section {
+  flex: 1;
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  table-layout: fixed;
+}
+
+th, td {
+  padding: 8px;
+  text-align: center;
+}
+
+.table-heading {
+  text-align: center; /* Center the heading */
+}
+
+.note-box {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 20px auto 0;
+  width: 80%;
+  border-radius: 20px;
+  text-align: center; /* Center the content */
+}
+
+/* Mobile Responsive Styles */
+
+@media (max-width: 768px) {
+  .pricing-grid {
+    flex-direction: column; /* Display sections in a single column */
+    align-items: center; /* Center the sections vertically */
+  }
+  
+  .grid-section {
+    padding: 10px; /* Reduce the padding */
+  }
+  
+  .note-box {
+    width: 90%; /* Adjust the width for smaller screens */
+  }
+}
+
+
 /*  Footer Component */
 
 .footer {
