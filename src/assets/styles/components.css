@@ -6,6 +6,7 @@
   font-size: 1rem !important;
   background-color: var(--teal);
   justify-content: space-around !important;
+  margin: 0;
 }
 
 .navIcons {
@@ -28,9 +29,9 @@
 }
 
 .navbarBrand {
+  display: flex;
   color: var(--cream) !important;
   font-size: 100%;
-  margin-left: 0;
 }
 
 .navLink {
@@ -40,6 +41,10 @@
   width: auto;
 }
 
+.logoContainer {
+  margin-left: 10px !important;
+}
+
 .navLink:hover {
   background-color: var(--mint);
   border-radius: 20px;
@@ -47,12 +52,53 @@
 }
 
 /* Hero */
+.heroContainer {
+  background-color: var(--cream);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* Adjust the number of columns as needed */
+  grid-gap: 20px; /* Adjust the gap between columns */
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
 .bg-image {
   background-image: url(../images/KernowPetsStore.jpeg);
-  background-size: cover;
-  height: 300px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 400px;
+  grid-column: 1; /* Position the image in the first column */
   border-radius: 10px;
 }
+
+.opening-hours {
+  grid-column: 2; /* Position the opening hours in the second column */
+  /* Add styling for the opening hours */
+}
+
+.hero-images {
+  grid-column: 3;
+}
+
+.snake1 {
+  height: 150px;
+}
+/* Media Query */
+
+@media (max-width: 768px) {
+  /* Media query for screens up to 768px width (typically mobile devices) */
+  .heroContainer {
+    grid-template-columns: 1fr; /* Display as a single column */
+  }
+
+  .bg-image,
+  .opening-hours {
+    grid-column: 1; /* Reset grid-column to span the full width */
+  }
+}
+
 /* About Component */
 
 .aboutCard {
@@ -166,3 +212,5 @@
   background-color: var(--teal);
   color: var(--mint);
 }
+
+

@@ -13,10 +13,10 @@ function Header() {
       expand="lg"
       className="navbar navigation navbar-expand-lg  justify-content-md-center justify-content-start"
     >
-      <Container>
+      <Container className="logoContainer">
         <LinkContainer to="/">
           <Navbar.Brand className="navbarBrand">
-            <img src={favicon} alt="logo" width="50px" />
+            <img src={favicon} alt="logo" width="80px" />
           </Navbar.Brand>
         </LinkContainer>
 
