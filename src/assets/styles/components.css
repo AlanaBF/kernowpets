@@ -56,7 +56,6 @@
   background-color: var(--cream);
   display: grid;
   grid-template-columns: 1fr 1fr 1fr; /* Adjust the number of columns as needed */
-  grid-gap: 20px; /* Adjust the gap between columns */
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -94,11 +93,15 @@
   }
 
   .bg-image,
-  .opening-hours {
+  .opening-hours, .hero-images {
     grid-column: 1; /* Reset grid-column to span the full width */
   }
 }
-
+/* Opening Times */
+.ul-opening-times {
+  margin: 0;
+  padding: 0;
+}
 /* About Component */
 
 .aboutCard {

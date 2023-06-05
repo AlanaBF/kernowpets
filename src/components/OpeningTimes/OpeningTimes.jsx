@@ -3,7 +3,7 @@ import React from "react";
 import "../../assets/styles/components.css"
 function OpeningTimes() {
   return (
-    <ul>
+    <ul className="ul-opening-times">
       Opening Hours
       <li>Monday: 10:00 - 17:00</li>
       <li>Tuesday 10:00 - 17:00</li>
