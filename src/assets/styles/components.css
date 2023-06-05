@@ -150,14 +150,14 @@
 
 .card {
   display: flex !important;
-  width: fit-content !important;
+  width: 100%;
   margin: 0 auto;
   background: transparent;
 }
 
 .leaflet-popup-content-wrapper {
-  width: fit-content !important;
-  background: var(--teal);
+  width: 100% !important;
+  background: var(--teal) !important;
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
@@ -165,7 +165,7 @@
 }
 
 .leaflet-popup {
-  width: fit-content !important;
+  width: moz-fit-content;
 }
 
 .content {
@@ -212,5 +212,3 @@
   background-color: var(--teal);
   color: var(--mint);
 }
-
-
