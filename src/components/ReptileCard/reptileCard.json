@@ -4,48 +4,48 @@
       "key": 1,
       "name": "Tortoise",
       "image": "/tortoise1.jpeg",
-      "caresheetLink": "",
-      "about": "https://www.monkfieldreptile.com/blog/category/care-sheets"  
+      "caresheetLink": "https://www.monkfieldreptile.com/blog/category/care-sheets",
+      "about": ""  
     },
     {
         "id": 2,
         "key": 2,
         "name": "Snake",
         "image": "/Snake2.jpeg",
-        "caresheetLink": "",
-        "about": "https://www.monkfieldreptile.com/blog/category/care-sheets"  
+        "caresheetLink": "https://www.monkfieldreptile.com/blog/category/care-sheets",
+        "about": ""  
       },
       {
         "id": 3,
         "key": 3,
         "name": "Lizard",
         "image": "/Lizard.jpeg",
-        "caresheetLink": "",
-        "about": "https://www.monkfieldreptile.com/blog/category/care-sheets"  
+        "caresheetLink": "https://www.monkfieldreptile.com/blog/category/care-sheets",
+        "about": ""  
       },
       {
         "id": 4,
         "key": 4,
         "name": "Gecko",
         "image": "/geckos.jpeg",
-        "caresheetLink": "",
-        "about": "https://www.monkfieldreptile.com/blog/category/care-sheets"  
+        "caresheetLink": "https://www.monkfieldreptile.com/blog/category/care-sheets",
+        "about": ""  
       },
       {
         "id": 5,
         "key": 5,
         "name": "Bearded Dragon",
         "image": "/beardeddragon.jpeg",
-        "caresheetLink": "",
-        "about": "https://www.monkfieldreptile.com/blog/category/care-sheets"  
+        "caresheetLink": "https://www.monkfieldreptile.com/blog/category/care-sheets",
+        "about": ""  
       },
       {
         "id": 6,
         "key": 6,
         "name": "Land Snails",
         "image": "/Landsnails.jpeg",
-        "caresheetLink": "",
-        "about": "https://www.monkfieldreptile.com/blog/category/care-sheets"  
+        "caresheetLink": "https://www.monkfieldreptile.com/blog/category/care-sheets",
+        "about": ""  
       },
       {
         "id": 7,
@@ -68,23 +68,23 @@
         "key": 9,
         "name": "Frogs",
         "image": "/frog.jpeg",
-        "caresheetLink": "",
-        "about": "https://www.monkfieldreptile.com/blog/category/care-sheets"  
+        "caresheetLink": "https://www.monkfieldreptile.com/blog/category/care-sheets",
+        "about": "" 
       },
       {
         "id": 10,
         "key": 10,
         "name": "Chameleon",
         "image": "/chameleon.jpeg",
-        "caresheetLink": "",
-        "about": "https://www.monkfieldreptile.com/blog/category/care-sheets"  
+        "caresheetLink": "https://www.monkfieldreptile.com/blog/category/care-sheets",
+        "about": ""  
       },
       {
         "id": 11,
         "key": 11,
         "name": "Iguana",
         "image": "/iguana.jpeg",
-        "caresheetLink": "",
-        "about": "https://www.monkfieldreptile.com/blog/category/care-sheets"  
+        "caresheetLink": "https://www.monkfieldreptile.com/blog/category/care-sheets",
+        "about": ""  
       }
 ]
