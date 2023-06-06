@@ -18,13 +18,13 @@
 
 .navbarIcons {
   font-size: 2rem !important;
-  color: var(--mint) !important;
+  color: var(--cream) !important;
   padding: 10px;
 }
 
 .navbarIcons:hover {
   font-size: 2rem !important;
-  color: var(--cream) !important;
+  color: var(--mint) !important;
   padding: 10px;
 }
 
@@ -75,6 +75,11 @@
 .opening-hours {
   grid-column: 2; /* Position the opening hours in the second column */
   /* Add styling for the opening hours */
+}
+
+.ul-opening-times {
+  font-size: 1.5em;
+  font-weight: 600;
 }
 
 .hero-images {
@@ -129,8 +134,8 @@
  
 }
 .leaflet-container {
-  width: 90%;
-  height: 80vh;
+  width: 80%;
+  height: 60vh;
   border-radius: 25px;
   margin: auto;
   text-align: center;
@@ -197,52 +202,6 @@
   color: var(--teal); /* Change the color to your desired color */
 }
 
-/* Live Food */
-
-/* .live-food-subtitle {
-  font-family: 'Gloria Hallelujah', cursive;
-}
-.pricing-grid {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.grid-section {
-  flex: 1;
-  padding: 20px;
-}
-
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 10px;
-  table-layout: fixed;
-}
-
-th, td {
-  
-  padding: 8px;
-  text-align: left !important;
-}
-
-.table-heading {
-  text-align: left;
-  padding-left: 20%;
-}
-
-.live-food-subtitle {
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-.note-box {
-  background-color: #f9f9f9;
-  border: 1px solid #ccc;
-  padding: 10px;
-  margin: 20px auto 0;
-  width: 80%;
-  border-radius: 20px;
-} */
 /* Live Food */
 
 .live-food-subtitle {

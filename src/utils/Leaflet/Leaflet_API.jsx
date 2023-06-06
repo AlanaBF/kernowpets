@@ -14,7 +14,7 @@ function Map() {
   return (
     <MapContainer
       center={[50.33835562786822, -4.795074254148329]}
-      zoom={20}
+      zoom={18}
       scrollWheelZoom={true}
     >
       <TileLayer

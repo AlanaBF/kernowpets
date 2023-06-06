@@ -132,16 +132,16 @@ const PricingGrid = () => {
                 <td>£8.90</td>
               </tr>
             </tbody>
-          </table>
-        </div>
-      </div>
-      <div className="note-box">
+          </table> <div className="note-box">
         <p>
           Also available:<br />
-          Chicks, Guinea Pigs, Gerbils, and Rabbits.<br />
+          Frozen Chicks, Guinea Pigs, Gerbils, and Rabbits.<br />
           Price on Request.
         </p>
       </div>
+        </div>
+      </div>
+     
     </div>
   );
 };

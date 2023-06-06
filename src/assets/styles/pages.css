@@ -9,7 +9,7 @@
 
 /* Home Page */
 
-.homePageTitle {
+.pageTitle {
   color: var(--black) !important;
   text-align: center;
 }
@@ -30,6 +30,7 @@
 .homeImage {
   width: 30%;
   border-radius: 20px;
+  margin-bottom: 20px;
 }
 
 /* Live Food Page */
@@ -41,6 +42,18 @@
 
 /* Contact Page */
 
+.contact-container {
+  display: grid;
+  grid-template-columns: 1fr; /* Display as a single column */
+  gap: 20px; /* Adjust the gap between elements as needed */
+  margin-top: 50px;
+}
+
+@media (min-width: 768px) {
+  .contact-container {
+    grid-template-columns: 1fr 1fr; /* Use two columns for screens wider than 768px */
+  }
+}
 .pageTitle {
   color: var(--black);
   font-size: 5em;
@@ -63,17 +76,35 @@
 .buttonGroup {
   color: var(--teal);
   color: var(--black);
+  text-align: left;
   margin: 0;
+  padding:0;
+}
+.contact-table-container {
+  width: 80%;
+  border: solid 10px var(--teal);
+  border-radius: 20px;
+  overflow: hidden; /* Ensure the border-radius is visible */
+  margin: auto;
+}
+
+.contact-table {
+  width: 100%;
+}
+
+.contact-table td {
+  padding: 8px;
+  text-align: left;
 }
 
 .fa {
-  font-size: 6rem;
+  font-size: 2rem;
   font-weight: bold;
   color: var(--teal);
 }
 
 .fa:hover {
-  font-size: 5rem;
+  color: var(--mint);
 }
 
 span {
