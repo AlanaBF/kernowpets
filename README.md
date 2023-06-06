@@ -1,6 +1,6 @@
 # Kernow Pets
 
-A commercial website specialisiing in sale of reptiles and reptile housing. live feed and accessories.
+A commercial website specialising in sale of reptiles and reptile housing. live feed and accessories.
 
 ## COMING SOON
 
