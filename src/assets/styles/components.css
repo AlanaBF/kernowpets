@@ -6,9 +6,10 @@
   border-radius: 20px;
   padding: 20px;
   margin: 50px auto;
-  line-height: 2em;
-  font-size: 1.5em;
-  width: 60%;
+  font-size: 1em;
+  width: moz-fit-content;
+ 
+  
 }
 
 /* Header Component */
@@ -152,7 +153,7 @@
   grid-template-columns: repeat(1, 1fr);
 }
 .leaflet-container {
-  width: 80%;
+  width: 90%;
   height: 60vh;
   border-radius: 25px;
   margin: auto;

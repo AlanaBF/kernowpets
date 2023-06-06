@@ -24,6 +24,10 @@ const PricingGrid = () => {
                 <td>£2.50</td>
               </tr>
               <tr>
+                <td>Tub of Locusts</td>
+                <td>£2.50</td>
+              </tr>
+              <tr>
                 <td>Tub of Morio Worms</td>
                 <td>£2.50</td>
               </tr>

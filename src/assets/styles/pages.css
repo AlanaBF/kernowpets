@@ -75,7 +75,7 @@
   padding:0;
 }
 .contact-table-container {
-  width: 80%;
+  width: 100%;
   border: solid 10px var(--teal);
   border-radius: 20px;
   overflow: hidden; /* Ensure the border-radius is visible */
