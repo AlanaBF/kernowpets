@@ -1,3 +1,16 @@
+.constructionText {
+  text-align: center;
+  background-color: var(--mint);
+  color: var(--black);
+  border: solid 10px var(--black);
+  border-radius: 20px;
+  padding: 20px;
+  margin: 50px auto;
+  line-height: 2em;
+  font-size: 1.5em;
+  width: 60%;
+}
+
 /* Header Component */
 
 .navigation {
@@ -100,7 +113,8 @@
   }
 
   .bg-image,
-  .opening-hours, .hero-images {
+  .opening-hours,
+  .hero-images {
     grid-column: 1; /* Reset grid-column to span the full width */
   }
 }
@@ -121,11 +135,14 @@
 
 .aboutText {
   text-align: center;
-  background-color: var(--mint);
+  background-color: var(--teal);
+  color: var(--cream);
   border: solid 10px var(--black);
   border-radius: 20px;
   padding: 20px;
   margin-top: 50px;
+  line-height: 2em;
+  font-size: 1.5em;
 }
 
 /* Leaflet */
@@ -133,7 +150,6 @@
 .venue {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
- 
 }
 .leaflet-container {
   width: 80%;
@@ -187,8 +203,8 @@
 }
 
 .leaflet-card-ul {
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
 }
 .img-container {
   width: 100% !important;
@@ -204,10 +220,57 @@
   color: var(--teal); /* Change the color to your desired color */
 }
 
+/* Reptile Page */
+
+.reptileCard {
+  padding: 20px;
+  width: 25rem !important;
+  border-radius: 10px !important;
+  border: 10px solid var(--teal) !important;
+  margin: 1% !important;
+}
+
+.cardImagePosition {
+  display: flex;
+}
+
+.cardImg {
+  width: 100%;
+  height: 100%;
+  object-fit: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.cardBodyText {
+  font-size: 1em !important;
+  height: 60%;
+}
+
+.cardBodyTitle {
+  font-size: 1em !important;
+  text-decoration: underline;
+}
+
+.cardBodyLinks {
+  font-size: 1em !important;
+  height: 40%;
+}
+
+.reptileCardLink,
+.reptileAnchorTag {
+  font-size: 1em !important;
+  line-height: 1 !important;
+}
+
+.reptileText {
+  font-size: 1em !important;
+}
+
 /* Live Food */
 
 .live-food-subtitle {
-  font-family: 'Gloria Hallelujah', cursive;
+  font-family: "Gloria Hallelujah", cursive;
   text-align: center;
   margin-bottom: 10px;
 }
@@ -231,7 +294,8 @@ table {
   table-layout: fixed;
 }
 
-th, td {
+th,
+td {
   padding: 8px;
   text-align: center;
 }
@@ -257,16 +321,15 @@ th, td {
     flex-direction: column; /* Display sections in a single column */
     align-items: center; /* Center the sections vertically */
   }
-  
+
   .grid-section {
     padding: 10px; /* Reduce the padding */
   }
-  
+
   .note-box {
     width: 90%; /* Adjust the width for smaller screens */
   }
 }
-
 
 /*  Footer Component */
 

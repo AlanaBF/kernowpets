@@ -1,0 +1,90 @@
+[
+    {
+      "id": 1,
+      "key": 1,
+      "name": "Tortoise",
+      "image": "/tortoise1.jpeg",
+      "caresheetLink": "",
+      "about": ""  
+    },
+    {
+        "id": 2,
+        "key": 2,
+        "name": "Snake",
+        "image": "/Snake2.jpeg",
+        "caresheetLink": "",
+        "about": ""  
+      },
+      {
+        "id": 3,
+        "key": 3,
+        "name": "Lizard",
+        "image": "/Lizard.jpeg",
+        "caresheetLink": "",
+        "about": ""  
+      },
+      {
+        "id": 4,
+        "key": 4,
+        "name": "Gecko",
+        "image": "/geckos.jpeg",
+        "caresheetLink": "",
+        "about": ""  
+      },
+      {
+        "id": 5,
+        "key": 5,
+        "name": "Bearded Dragon",
+        "image": "/beardeddragon.jpeg",
+        "caresheetLink": "",
+        "about": ""  
+      },
+      {
+        "id": 6,
+        "key": 6,
+        "name": "Land Snails",
+        "image": "/Landsnails.jpeg",
+        "caresheetLink": "",
+        "about": ""  
+      },
+      {
+        "id": 7,
+        "key": 7,
+        "name": "Arachnids",
+        "image": "/Tarantula.jpeg",
+        "caresheetLink": "",
+        "about": ""  
+      },
+      {
+        "id": 8,
+        "key": 8,
+        "name": "Scorpion",
+        "image": "/scorpion.jpeg",
+        "caresheetLink": "",
+        "about": ""  
+      },
+      {
+        "id": 9,
+        "key": 9,
+        "name": "Frogs",
+        "image": "/frog.jpeg",
+        "caresheetLink": "",
+        "about": ""  
+      },
+      {
+        "id": 10,
+        "key": 10,
+        "name": "Chameleon",
+        "image": "/chameleon.jpeg",
+        "caresheetLink": "",
+        "about": ""  
+      },
+      {
+        "id": 11,
+        "key": 11,
+        "name": "Iguana",
+        "image": "/iguana.jpeg",
+        "caresheetLink": "",
+        "about": ""  
+      }
+]

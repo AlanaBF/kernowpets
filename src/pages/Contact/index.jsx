@@ -1,5 +1,4 @@
 import "../../assets/styles/pages.css";
-import OpeningTimes from "../../components/OpeningTimes/OpeningTimes";
 import Map from "../../utils/Leaflet/Leaflet_API";
 //Contact page with links to my LinkedIn, Github, Twitter and emails
 function Contact() {
@@ -7,6 +6,7 @@ function Contact() {
     <div>
     <div className="pageBackground">
     <h1 className="pageTitle">Get in Contact</h1>
+    <p className="constructionText">Website Under Construction. <br/> New content being added <br/> Keep checking for new information</p>
     <div className="contact-container">
       <div className="map-container">
         <Map />

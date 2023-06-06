@@ -14,7 +14,7 @@ function Home() {
         <HeroImages className="hero-images" />
       </div>
       <h1 className="pageTitle">Kernow Pets</h1>
-
+      <p className="constructionText">Website Under Construction. <br/> New content being added <br/> Keep checking for new information</p>
       <div>
         <div className="aboutMePosition">
           <About />

@@ -2,9 +2,8 @@
 .pageBackground {
   background-color: var(--cream);
   text-align: center;
-  padding: 0;
-  margin: 0;
-  min-height: 87vh;
+  min-height: 90vh;
+  padding: 20px;
 }
 
 /* Home Page */
@@ -31,6 +30,14 @@
   width: 30%;
   border-radius: 20px;
   margin-bottom: 20px;
+}
+
+/* Reptile Page */
+
+.reptilePageCard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 /* Live Food Page */
