@@ -4,14 +4,7 @@
   --mint: #6CD9D9;
   --green: #04BFAD;
   --black: #40403E;
-  --light-brown: #D9C5AD;
-  /* --mint: #69bf87;
-  --lime-green: #64bf4b;
-  --emerald-green: #559166;
-  --black: #0d0c0a; */
   --cream: #f2f0d5;
-  /* --brown: #8c7561;
-  --dark-green: #1f261a; */
   width: 100%;
 }
 
@@ -27,7 +20,6 @@ h5 {
   color: var(--black);
 }
 
-
 p {
   font-family: 'Gloria Hallelujah', cursive;
   margin: 0;
@@ -39,6 +31,7 @@ p {
 li {
   list-style-type: none;
 }
+
 * {
   padding: 0;
   margin: 0;
@@ -48,6 +41,7 @@ li {
 a {
   text-decoration: none !important;
 }
+
 .pageBackground {
   background-color: var(--cream);
   text-align: center;
@@ -65,6 +59,7 @@ a {
   text-align: center;
   padding: 10px;
 }
+
 @keyframes spin {
   from {
     transform: rotate(0deg);

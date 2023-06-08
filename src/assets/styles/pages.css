@@ -1,37 +1,38 @@
 /* Home Page */
 
 .homeSubtitle {
-  text-align: center;
-  color: var(--black);
+  text-align: center; /* Center-align the text */
+  color: var(--black); /* Set the text color */
 }
 
 .homeImage {
-  width: 30%;
-  border-radius: 20px;
-  margin-bottom: 10px;
+  width: 30%; /* Set the width of the image */
+  border-radius: 20px; /* Add a border radius to the image */
+  margin-bottom: 10px; /* Add some bottom margin to the image */
 }
 
 /* Reptile Page */
 
 .reptilePageCard {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  display: flex; /* Display the cards in a flex layout */
+  flex-wrap: wrap; /* Allow the cards to wrap to the next line */
+  justify-content: space-around; /* Space the cards evenly horizontally */
 }
 
 /* Live Food Page */
+
 .live-food-banner {
-  width: 80%;
-  border-radius: 20px;
+  width: 80%; /* Set the width of the banner */
+  border-radius: 20px; /* Add a border radius to the banner */
 }
 
 /* Contact Page */
 
 .contact-container {
-  display: grid;
+  display: grid; /* Display the container as a grid */
   grid-template-columns: 1fr; /* Display as a single column */
   gap: 20px; /* Adjust the gap between elements as needed */
-  margin-top: 50px;
+  margin-top: 50px; /* Add top margin to the container */
 }
 
 @media (min-width: 768px) {
@@ -40,104 +41,96 @@
   }
 }
 
-.buttonGroup {
-  color: var(--teal);
-  color: var(--black);
-  text-align: left;
-  margin: 0;
-  padding: 0;
-}
-
 .contact-table-container {
-  width: 100%;
-  border: solid 10px var(--teal);
-  border-radius: 20px;
+  width: 100%; /* Set the width of the container */
+  border: solid 10px var(--teal); /* Add a solid border */
+  border-radius: 20px; /* Add a border radius to the container */
   overflow: hidden; /* Ensure the border-radius is visible */
-  margin: auto;
+  margin: auto; /* Center the container horizontally */
 }
 
 .contact-table {
-  width: 100%;
+  width: 100%; /* Set the width of the table */
 }
 
 .contact-table td {
-  padding: 8px;
-  text-align: left;
-  font-weight: 600;
-  word-break: break-word;
+  padding: 8px; /* Add padding to the table cells */
+  text-align: left; /* Left-align the text in the table cells */
+  font-weight: 600; /* Set the font weight of the table cells */
+  word-break: break-word; /* Break words if they exceed the cell width */
 }
 
 .fa {
-  font-size: 2rem;
-  font-weight: bold;
-  color: var(--teal);
+  font-size: 2rem; /* Set the font size of the icon */
+  font-weight: bold; /* Set the font weight of the icon */
+  color: var(--teal); /* Set the color of the icon */
 }
 
 .fa:hover {
-  color: var(--mint);
+  color: var(--mint); /* Change the color of the icon on hover */
 }
 
 span {
-  display: flex;
-  justify-content: space-around;
-  margin: 0% 20% 0% 20%;
-  align-items: center;
+  display: flex; /* Display as a flex container */
+  justify-content: space-around; /* Space the elements evenly horizontally */
+  margin: 0% 20% 0% 20%; /* Set the margin around the span */
+  align-items: center; /* Center-align the items vertically */
 }
 
 /* Page Not Found */
 
 .notFoundPageContainer {
-  width: 100%;
-  background-color: var(--mint);
-  height: 85vh;
+  width: 100%; /* Set the width of the container */
+  background-color: var(--mint); /* Set the background color */
+  height: 85vh; /* Set the height of the container */
 }
 
 .notFoundPageInner {
-  height: 80vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  height: 80vh; /* Set the height of the inner container */
+  display: flex; /* Display as a flex container */
+  justify-content: center; /* Center-align the content horizontally */
+  align-items: center; /* Center-align the content vertically */
 }
 
 .notFoundPageContent {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 20px solid var(--teal);
-  border-radius: 20px;
-  width: 80%;
-  background-color: var(--teal);
-  color: var(--mint);
+  display: flex; /* Display as a flex container */
+  justify-content: center; /* Center-align the content horizontally */
+  align-items: center; /* Center-align the content vertically */
+  border: 20px solid var(--teal); /* Add a solid border */
+  border-radius: 20px; /* Add a border radius to the container */
+  width: 80%; /* Set the width of the container */
+  background-color: var(--teal); /* Set the background color */
+  color: var(--mint); /* Set the text color */
 }
 
 .notFoundPageContent div {
-  width: 100%;
-  height: 100%;
-  min-height: 400px;
-  display: flex;
-  justify-content: flex-end;
-  flex-direction: column;
-  align-items: flex-start;
+  width: 100%; /* Set the width of the div */
+  height: 100%; /* Set the height of the div */
+  min-height: 400px; /* Set the minimum height of the div */
+  display: flex; /* Display as a flex container */
+  justify-content: flex-end; /* Align the content to the right */
+  flex-direction: column; /* Arrange the content in a column */
+  align-items: flex-start; /* Align the content to the left */
 }
 
 .notFoundPageContent div:nth-child(1) {
-  justify-content: center;
-  align-items: center;
+  justify-content: center; /* Center-align the content horizontally */
+  align-items: center; /* Center-align the content vertically */
 }
 
 .notFoundPageContent p {
-  font-size: 1rem;
+  font-size: 1rem; /* Set the font size of the paragraph */
 }
 
 .notFoundPageContent span {
-  font-size: 2rem;
+  font-size: 2rem; /* Set the font size of the span */
 }
 
 .notFoundPageContent a {
-  color: var(--mint);
+  color: var(--mint); /* Set the color of the link */
 }
 
 .notFoundPageContent img {
-  display: flex;
-  width: 200%;
+  display: flex; /* Display the image as a flex container */
+  width: 200%; /* Set the width of the image to twice its container */
 }

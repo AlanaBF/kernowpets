@@ -27,7 +27,7 @@
             "link": "/PDFCareSheets/Tortoise/Red-FootedTortoiseCARESHEET2021.pdf"
           }
         ],
-        "about": ""
+        "about": "Tortoises are land-dwelling reptiles known for their hard shells. They have a slow and steady pace of movement and are generally herbivorous, feeding on a variety of plant matter. Tortoises require specific care to thrive in captivity, including providing a suitable enclosure with proper heating, lighting, and humidity levels. They also require a balanced diet and regular access to fresh water. Popular tortoise species kept as pets include Hermann's Tortoise, Horsefield's Tortoise, Marginated Tortoise, Mediterranean Tortoise, and Red-Footed Tortoise."
       }
     ]
   },
@@ -95,7 +95,7 @@
             "link": "/PDFCareSheets/Snake/Western Hognose Snake CARE SHEET Jan2023.pdf"
           }
         ],
-        "about": ""
+        "about": "Snakes are elongated, legless reptiles that come in a wide variety of species. They have a unique mode of locomotion and are known for their ability to swallow prey whole. Popular pet snake species include Corn Snakes, Ball Pythons, King Snakes, and Boa Constrictors. Snakes require specific habitat setups, including appropriate enclosures with proper heating, humidity, and hiding spots. They have specific dietary needs and feed on a variety of prey items, such as mice or rats, depending on their size and species."
       }
     ]
   },
@@ -119,7 +119,7 @@
             "link": "/PDFCareSheets/Lizard/Helmeted iguana CARE SHEET 2022.pdf"
           }
         ],
-        "about": ""
+        "about": "Lizards are a diverse group of reptiles known for their scaly skin and ability to climb and bask in the sun. They come in various sizes, colors, and habitats. Some popular pet lizard species include Bearded Dragons, Leopard Geckos, Crested Geckos, and Green Anoles. Each species has its own specific care requirements, including temperature and humidity needs, dietary preferences, and habitat setups. Lizards are generally insectivorous or omnivorous, feeding on a combination of insects, fruits, and vegetables."
       }
     ]
   },
@@ -130,7 +130,6 @@
         "name": "Amphibians",
         "image": "/frog.jpeg",
         "caresheetLink": [
-
           {
             "name": "African Bull Frog Care Sheet",
             "link": "/PDFCareSheets/amphibian/African Bullfrog CARE SHEET 2021.pdf"
@@ -188,7 +187,7 @@
             "link": "/PDFCareSheets/amphibian/Yellow-Bellied Toad CARE SHEET 2022.pdf"
           }
         ],
-        "about": ""
+        "about": "Amphibians are cold-blooded vertebrates that typically undergo metamorphosis from aquatic larvae to terrestrial adults. They include frogs, toads, salamanders, and newts. Amphibians have permeable skin, which makes them sensitive to changes in environmental conditions. They require a suitable habitat with proper moisture levels, access to water, and hiding places. Popular pet amphibians include African Clawed Frogs, Fire-Bellied Toads, and Axolotls. They have diverse diets, including insects, worms, and small aquatic organisms."
       }
     ]
   },
@@ -220,7 +219,7 @@
             "link": "/PDFCareSheets/invertebrates/Sunny Stick Insect CARE SHEET Jan2023.pdf"
           }
         ],
-        "about": ""
+        "about": "Invertebrates are animals that do not have a backbone or spinal column. This category encompasses a wide range of creatures, including insects, crustaceans, mollusks, and more. Popular pet invertebrates include Tarantulas, Scorpions, Millipedes, and Praying Mantises. Each species within this category has specific care requirements, such as temperature and humidity preferences, feeding habits, and enclosure setups. Invertebrates play important roles in various ecosystems and exhibit fascinating adaptations and behaviors."
       }
     ]
   },
@@ -276,9 +275,8 @@
             "link": "/PDFCareSheets/arachnid/Terrestrial Tarantula CARE SHEET 2021.pdf"
           }
         ],
-        "about": ""
+        "about": "Arachnids are a class of invertebrates that includes spiders, scorpions, and ticks. They have two main body segments, eight legs, and usually multiple pairs of eyes. Arachnids are known for their ability to produce silk, which they use for various purposes, such as building webs or creating shelters. Popular pet arachnids include Tarantulas, which are large and typically venomous spiders, and Scorpions, which have a characteristic pair of pincers and a venomous stinger. Proper care for pet arachnids involves providing suitable enclosures, appropriate temperature and humidity levels, and a diet consisting of live insects or other small invertebrates."
       }
     ]
   }
 ]
-

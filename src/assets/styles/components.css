@@ -1,11 +1,8 @@
 /* Header Component */
-
 .navigation {
-  width: 100% !important;
-  height: 100% !important;
-  font-size: 1rem !important;
+  font-size: 1rem;
   background-color: var(--teal);
-  justify-content: space-around !important;
+  justify-content: space-around;
   margin: 0;
 }
 
@@ -13,47 +10,43 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  text-decoration: none !important;
+  text-decoration: none;
 }
 
 .navbarIcons {
-  font-size: 2rem !important;
-  color: var(--cream) !important;
+  font-size: 2rem;
+  color: var(--cream);
   padding: 10px;
 }
 
 .navbarIcons:hover {
-  font-size: 2rem !important;
-  color: var(--mint) !important;
-  padding: 10px;
+  color: var(--mint);
 }
 
 .navbarBrand {
   display: flex;
-  color: var(--cream) !important;
+  color: var(--cream);
   font-size: 100%;
 }
 
 .navbarlogo {
-border-radius: 100%;
-width: 60px;
+  border-radius: 100%;
+  width: 60px;
 }
 
 .navLink {
-  color: var(--cream) !important;
+  color: var(--cream);
   font-size: 60%;
   border-radius: 20px;
   width: auto;
 }
 
 .logoContainer {
-  margin-left: 10px !important;
+  margin-left: 10px;
 }
 
 .navLink:hover {
   background-color: var(--mint);
-  border-radius: 20px;
-  width: auto;
 }
 
 /* Hero */
@@ -97,8 +90,8 @@ width: 60px;
 .heroimage {
   height: 150px;
 }
-/* Media Query */
 
+/* Media Query */
 @media (max-width: 768px) {
   /* Media query for screens up to 768px width (typically mobile devices) */
   .heroContainer {
@@ -113,7 +106,6 @@ width: 60px;
 }
 
 /* About Component */
-
 .aboutCard {
   font-size: 100%;
   text-align: center;
@@ -135,11 +127,11 @@ width: 60px;
 }
 
 /* Leaflet */
-
 .venue {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
 }
+
 .leaflet-container {
   width: 90%;
   height: 60vh;
@@ -147,8 +139,9 @@ width: 60px;
   margin: auto;
   text-align: center;
 }
+
 .leaflet-popup-close-button {
-  color: var(--mint) !important;
+  color: var(--mint);
 }
 
 .venue .slogan {
@@ -156,15 +149,15 @@ width: 60px;
 }
 
 .card {
-  display: flex !important;
+  display: flex;
   width: 100%;
   margin: 0 auto;
   background: transparent;
 }
 
 .leaflet-popup-content-wrapper {
-  width: 100% !important;
-  background: var(--teal) !important;
+  width: 100%;
+  background: var(--teal);
   border-radius: 10px;
 }
 
@@ -177,14 +170,17 @@ width: 60px;
   flex-direction: column;
   background: transparent;
 }
+
 .content h5 {
   font-size: 12px;
 }
+
 .content h4 {
   color: var(--black);
   font-size: 15px;
   font-weight: bold;
 }
+
 .content h3 {
   font-weight: bold;
   font-size: 17px;
@@ -195,9 +191,10 @@ width: 60px;
   margin: 0;
   padding: 0;
 }
+
 .img-container {
-  width: 100% !important;
-  border-radius: 10px !important;
+  width: 100%;
+  border-radius: 10px;
 }
 
 .shopImage {
@@ -210,7 +207,6 @@ width: 60px;
 }
 
 /* Reptile Page */
-
 .careSheetLinks {
   overflow: auto;
   max-height: 200px; /* Adjust this value to your preference */
@@ -241,13 +237,13 @@ width: 60px;
 }
 
 .reptileCard {
-  padding: 20px; 
+  padding: 20px;
   display: flex;
   flex-direction: column;
-  width: 25rem !important;
-  border-radius: 10px !important;
-  border: 10px solid var(--teal) !important;
-  margin: 1% !important;
+  width: 25rem;
+  border-radius: 10px;
+  border: 10px solid var(--teal);
+  margin: 1%;
 }
 
 .cardBodyContent {
@@ -267,34 +263,33 @@ width: 60px;
 }
 
 .cardBodyText {
-  font-size: 1em !important;
+  font-size: 1em;
   display: flex;
   flex-direction: column;
 }
 
 .cardBodyTitle {
-  font-size: 1em !important;
+  font-size: 1em;
   text-decoration: underline;
 }
 
 .cardBodyLinks {
-  font-size: 1em !important;
+  font-size: 1em;
   display: flex;
   flex-direction: column;
 }
 
 .reptileCardLink,
 .reptileAnchorTag {
-  font-size: 1em !important;
-  line-height: 1 !important;
+  font-size: 1em;
+  line-height: 1;
 }
 
 .reptileText {
-  font-size: 1em !important;
+  font-size: 1em;
 }
 
 /* Live Food */
-
 .live-food-subtitle {
   font-family: "Gloria Hallelujah", cursive;
   text-align: center;
@@ -303,9 +298,9 @@ width: 60px;
 
 .pricing-grid {
   display: flex;
-  flex-wrap: wrap; /* Allow the sections to wrap on smaller screens */
-  justify-content: center; /* Center the content horizontally */
-  align-items: flex-start; /* Align items to the top */
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .grid-section {
@@ -327,12 +322,12 @@ td {
 
 .beardiepic {
   width: 50%;
- margin: auto;
+  margin: auto;
   border-radius: 20px;
 }
 
 .table-heading {
-  text-align: center; /* Center the heading */
+  text-align: center;
 }
 
 .note-box {
@@ -342,31 +337,29 @@ td {
   margin: 20px auto 0;
   width: 80%;
   border-radius: 20px;
-  text-align: center; /* Center the content */
+  text-align: center;
 }
 
 /* Mobile Responsive Styles */
-
 @media (max-width: 768px) {
   .pricing-grid {
-    flex-direction: column; /* Display sections in a single column */
-    align-items: center; /* Center the sections vertically */
+    flex-direction: column;
+    align-items: center;
   }
 
   .grid-section {
-    padding: 10px; /* Reduce the padding */
+    padding: 10px;
   }
 
   .note-box {
-    width: 90%; /* Adjust the width for smaller screens */
+    width: 90%;
   }
 }
 
-/*  Footer Component */
-
+/* Footer Component */
 .footer {
   width: 100%;
-  font-size: 1rem !important;
+  font-size: 1rem;
   text-align: center;
   padding: 1rem;
   margin: 0;

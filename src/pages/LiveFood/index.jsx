@@ -8,6 +8,7 @@ function LiveFood() {
       <h2 className="pageTitle">Live and Frozen Food</h2>
       <img className="live-food-banner" src={LiveFoodBanner} alt=""></img>
       <br />
+      <p className="pageText">At our store, we offer a diverse range of live and frozen food specifically tailored for reptiles. We understand the unique dietary needs of reptiles and strive to provide high-quality and nutritious food options to ensure their optimal health and well-being.</p>
       <PricingGrid />
     </div>
   );
