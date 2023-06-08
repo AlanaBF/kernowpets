@@ -21,7 +21,7 @@ h3,
 h4,
 h5 {
   font-family: 'Gloria Hallelujah', cursive;
-  font-weight: 900;
+  font-weight: 600;
   margin: 0;
   text-align: center;
   color: var(--black);
@@ -33,6 +33,7 @@ p {
   margin: 0;
   text-align: center;
   color: var(--black);
+  font-weight: 400;
 }
 
 li {
@@ -47,7 +48,23 @@ li {
 a {
   text-decoration: none !important;
 }
+.pageBackground {
+  background-color: var(--cream);
+  text-align: center;
+  min-height: 90vh;
+  padding: 20px;
+}
 
+.pageText {
+  color: var(--black);
+  padding: 10px;
+}
+
+.pageTitle {
+  color: var(--black) !important;
+  text-align: center;
+  padding: 10px;
+}
 @keyframes spin {
   from {
     transform: rotate(0deg);
@@ -61,33 +78,5 @@ a {
   /* Apply animation only if reduced motion is not preferred */
   a.logo-link .abfLogo {
     animation: spin infinite 20s linear;
-  }
-}
-
-/* Media Queries */
-
-@media (max-width: 900px) {
-  .title {
-    width: 100%;
-    text-align: center;
-    font-size: 200%;
-    text-decoration: underline;
-    margin-bottom: 1%;
-    padding: 1rem;
-    font-style: italic;
-  }
-
-  .text {
-    font-size: 70%;
-    text-align: center;
-    background-color: white;
-    border-radius: 20px;
-    padding: 1%;
-  }
-
-  .brand {
-    text-align: center;
-
-    font-size: 100%;
   }
 }

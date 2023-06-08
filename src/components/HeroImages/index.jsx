@@ -7,9 +7,9 @@ import "../../assets/styles/components.css"
 function HeroImages() {
   return (
     <div> 
-    <img src={snake1} alt="" className="snake1"></img>
-    <img src={tortoise} alt="" className="snake1"></img>
-    <img src={beardeddragon} alt="" className="snake1"></img>
+    <img src={snake1} alt="" className="heroimage"></img>
+    <img src={tortoise} alt="" className="heroimage"></img>
+    <img src={beardeddragon} alt="" className="heroimage"></img>
     </div>
   );
 }

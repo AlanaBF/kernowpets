@@ -18,11 +18,12 @@ function About() {
             exciting.
           </p>
         </div>
-        <div className="pageText">
-          <p>Take advantage of our Reptile Boarding services.</p>
+        <div className="pageText reptileBoarding">
+          <p>Take advantage of our <em><strong>Reptile Boarding services</strong></em>.</p>
           <p>
-            Prices start from £35 per week, varying based on the reptile type.
+            Prices start from £35 per week, varying based on the reptile type. 
           </p>
+          <p>Contact us for more information</p>
         </div>
       </div>
     </div>

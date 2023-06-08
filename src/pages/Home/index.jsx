@@ -13,7 +13,8 @@ function Home() {
         <OpeningTimes className="opening-times" />
         <HeroImages className="hero-images" />
       </div>
-      <h1 className="pageTitle">Kernow Pets</h1>      <div>
+      <h1 className="pageTitle">Kernow Pets</h1>{" "}
+      <div>
         <div className="pageText">
           <About />
         </div>

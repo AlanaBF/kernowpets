@@ -1,22 +1,4 @@
-/* General Page Layout */
-.pageBackground {
-  background-color: var(--cream);
-  text-align: center;
-  min-height: 90vh;
-  padding: 20px;
-}
-
-.pageText {
-  color: var(--black);
-  padding: 10px;
-}
-
 /* Home Page */
-
-.pageTitle {
-  color: var(--black) !important;
-  text-align: center;
-}
 
 .homeSubtitle {
   text-align: center;
@@ -57,11 +39,6 @@
     grid-template-columns: 1fr 1fr; /* Use two columns for screens wider than 768px */
   }
 }
-.pageTitle {
-  color: var(--black);
-  font-size: 5em;
-  padding-top: 20px;
-}
 
 .buttonGroup {
   color: var(--teal);
@@ -70,6 +47,7 @@
   margin: 0;
   padding: 0;
 }
+
 .contact-table-container {
   width: 100%;
   border: solid 10px var(--teal);

@@ -6,7 +6,7 @@ function ReptileCard({ project }) {
   const { name, image, caresheetLink, about } = project.reptiles[0];
 
   return (
-    <Card className="reptileCard">
+    <Card className="reptileCard" style={{ backgroundColor: "inherit" }}>
       <div className="cardImagePosition">
         <Card.Img
           className="cardImage"
@@ -22,7 +22,7 @@ function ReptileCard({ project }) {
           </h4>
         </Card.Title>
         <div className="reptileText">
-          <h5>{about}</h5>
+          <h5 className="text-overflow">{about}</h5>
         </div>
       </Card.Body>
       <Card.Body className="cardBodyLinks">
@@ -31,9 +31,9 @@ function ReptileCard({ project }) {
         ) : (
           <>
             <h5 className="reptileCardLink">Care Sheets:</h5>
-            <div className="reptileCardLink">
+            <div className="careSheetLinks">
               {caresheetLink.map((sheet, index) => (
-                <div key={index}>
+                <div key={index} className="careSheetLink">
                   <a
                     href={sheet.link}
                     target="_blank"
@@ -52,4 +52,3 @@ function ReptileCard({ project }) {
 }
 
 export default ReptileCard;
-

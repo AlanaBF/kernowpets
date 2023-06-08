@@ -8,11 +8,11 @@ function Reptiles() {
     <div className="pageBackground">
       <div>
         <h1 className="pageTitle">Reptiles, Mammals, Amphibians</h1>
-        <h2 className="pageText">
+        <h5 className="pageText">
           Discover an ever-changing selection of exceptional products we stock
           or have stocked. Visit or call us to find out if we have what you
           want or can stock it for you.
-        </h2>
+        </h5>
         <div className="reptilePageCard">
           {reptileCard.map((project, index) => (
             <ReptileCard key={index} project={project} />
