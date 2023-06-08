@@ -298,9 +298,18 @@
     "category": "Others",
     "reptiles": [
       {
-        "name": "Chameleon",
+        "name": "Other",
         "image": "/chameleon.jpeg",
-        "caresheetLink": [],
+        "caresheetLink": [
+          {
+            "name": "Yemen Chameleon Care Sheet",
+            "link": "/src/assets/PDFCareSheets/Lizard/Yemen (Veiled) Chameleon CARE SHEET Feb2023.pdf"
+          },
+          {
+            "name": "Helmeted Iguana Care Sheet",
+            "link": "/src/assets/PDFCareSheets/Lizard/Helmeted iguana CARE SHEET 2022.pdf"
+          }
+        ],
         "about": ""
       },
       {

@@ -1,9 +1,8 @@
-import favicon from "../../assets/favicon/apple-touch-icon.png";
+import image from "../../assets/images/android-chrome-512x512.png";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { LinkContainer } from "react-router-bootstrap";
-import NavDropdown from "react-bootstrap/NavDropdown";
 import "../../assets/styles/components.css";
 
 function Header() {
@@ -16,7 +15,7 @@ function Header() {
       <Container className="logoContainer">
         <LinkContainer to="/">
           <Navbar.Brand className="navbarBrand">
-            <img src={favicon} alt="logo" width="80px" />
+            <img className="navbarlogo" src={image} alt="logo" />
           </Navbar.Brand>
         </LinkContainer>
 
