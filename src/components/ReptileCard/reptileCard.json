@@ -8,23 +8,23 @@
         "caresheetLink": [
           {
             "name": "Hermanns Tortoise Care Sheet",
-            "link": "/src/assets/PDFCareSheets/Tortoise/HermannsTortoiseCARESHEETNov2022.pdf"
+            "link": "/PDFCareSheets/Tortoise/HermannsTortoiseCARESHEETNov2022.pdf"
           },
           {
             "name": "Horsefields Tortoise Care Sheet",
-            "link": "/src/assets/PDFCareSheets/Tortoise/HorsfieldsTortoiseCARESHEETMar2023.pdf"
+            "link": "/PDFCareSheets/Tortoise/HorsfieldsTortoiseCARESHEETMar2023.pdf"
           },
           {
             "name": "Marginated Tortoise Care Sheet",
-            "link": "/src/assets/PDFCareSheets/Tortoise/MarginatedTortoiseCARESHEET2021.pdf"
+            "link": "/PDFCareSheets/Tortoise/MarginatedTortoiseCARESHEET2021.pdf"
           },
           {
             "name": "Mediterranean Tortoise Care Sheet",
-            "link": "/src/assets/PDFCareSheets/Tortoise/MediterraneanTortoiseCARESHEET2021.pdf"
+            "link": "/PDFCareSheets/Tortoise/MediterraneanTortoiseCARESHEET2021.pdf"
           },
           {
             "name": "Red Footed Tortoise Care Sheet",
-            "link": "/src/assets/PDFCareSheets/Tortoise/Red-FootedTortoiseCARESHEET2021.pdf"
+            "link": "/PDFCareSheets/Tortoise/Red-FootedTortoiseCARESHEET2021.pdf"
           }
         ],
         "about": ""
