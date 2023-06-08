@@ -40,7 +40,10 @@ function Header() {
             <LinkContainer to="/Contact">
               <Nav.Link className="navLink">Contact Me</Nav.Link>
             </LinkContainer>
-            
+             {/* Contacts and info */}
+             <LinkContainer to="/Gallery">
+              <Nav.Link className="navLink">Photo Gallery</Nav.Link>
+            </LinkContainer>
           </Nav>
 
           <Nav className="nav navbar-nav flex-row justify-content-md-center justify-content-start flex-nowrap">

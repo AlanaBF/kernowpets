@@ -241,7 +241,7 @@
   flex-direction: column;
   width: 25rem;
   border-radius: 10px;
-  border: 10px solid var(--teal);
+  border: 10px solid var(--teal) !important;
   margin: 1%;
 }
 
@@ -364,4 +364,8 @@ td {
   margin: 0;
   background-color: var(--teal);
   color: var(--mint);
+}
+
+.yellow-star {
+  color: yellow;
 }

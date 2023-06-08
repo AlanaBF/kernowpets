@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { Home, Contact, NotFound, Reptiles, LiveFood } from "./pages";
+import { Home, Contact, NotFound, Reptiles, LiveFood, Gallery } from "./pages";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import './App.css'
@@ -16,6 +16,7 @@ const App = () => {
           <Route path="/Contact" element={<Contact />} />
           <Route path="/Reptiles" element={<Reptiles />} />
           <Route path="/LiveFood" element={<LiveFood />} />
+          <Route path="/Gallery" element={<Gallery />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
