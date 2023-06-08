@@ -40,11 +40,11 @@
         "caresheetLink": [
           {
             "name": "Painted Wood Turtle Care Sheet",
-            "link": "/src/assets/PDFCareSheets/Turtle/Painted Wood Turtle CARE SHEET 2022.pdf"
+            "link": "/PDFCareSheets/Turtle/Painted Wood Turtle CARE SHEET 2022.pdf"
           },
           {
             "name": "Reeves Turtle Care Sheet",
-            "link": "/src/assets/PDFCareSheets/Turtle/Reeves Turtle CARE SHEET 2021.pdf"
+            "link": "/PDFCareSheets/Turtle/Reeves Turtle CARE SHEET 2021.pdf"
           }
         ],
         "about": ""
@@ -60,59 +60,59 @@
         "caresheetLink": [
           {
             "name": "Amazon Tree Boa Care Sheet",
-            "link": "/src/assets/PDFCareSheets/Snake/Amazon Tree Boa CARE SHEET 2022.pdf"
+            "link": "/PDFCareSheets/Snake/Amazon Tree Boa CARE SHEET 2022.pdf"
           },
           {
             "name": "Barons Racer Care Sheet",
-            "link": "/src/assets/PDFCareSheets/Snake/Barons Racer CARE SHEET 2022.pdf"
+            "link": "/PDFCareSheets/Snake/Barons Racer CARE SHEET 2022.pdf"
           },
           {
             "name": "Bull Snake Care Sheet",
-            "link": "/src/assets/PDFCareSheets/Snake/Bull Snake CARE SHEET 2021.pdf"
+            "link": "/PDFCareSheets/Snake/Bull Snake CARE SHEET 2021.pdf"
           },
           {
             "name": "Carpet Python Care Sheet",
-            "link": "/src/assets/PDFCareSheets/Snake/Carpet Python CARE SHEET 2021.pdf"
+            "link": "/PDFCareSheets/Snake/Carpet Python CARE SHEET 2021.pdf"
           },
           {
             "name": "Corn Snake Care Sheet",
-            "link": "/src/assets/PDFCareSheets/Snake/Corn Snake CARE SHEET Nov2022.pdf"
+            "link": "/PDFCareSheets/Snake/Corn Snake CARE SHEET Nov2022.pdf"
           },
           {
             "name": "Garter Snake Care Sheet",
-            "link": "/src/assets/PDFCareSheets/Snake/Garter Snake CARE SHEET 2021.pdf"
+            "link": "/PDFCareSheets/Snake/Garter Snake CARE SHEET 2021.pdf"
           },
           {
             "name": "Honduran Milk Snake Care Sheet",
-            "link": "/src/assets/PDFCareSheets/Snake/Honduran Milk Snake CARE SHEET Mar2023.pdf"
+            "link": "/PDFCareSheets/Snake/Honduran Milk Snake CARE SHEET Mar2023.pdf"
           },
           {
             "name": "Kenyan Sand Boa Care Sheet",
-            "link": "/src/assets/PDFCareSheets/Snake/Kenyan Sand Boa CARE SHEET Mar2023.pdf"
+            "link": "/PDFCareSheets/Snake/Kenyan Sand Boa CARE SHEET Mar2023.pdf"
           },
           {
             "name": "Kingsnake Care Sheet",
-            "link": "/src/assets/PDFCareSheets/Snake/Kingsnake CARE SHEET 2021.pdf"
+            "link": "/PDFCareSheets/Snake/Kingsnake CARE SHEET 2021.pdf"
           },
           {
             "name": "Royal Python Care Sheet",
-            "link": "/src/assets/PDFCareSheets/Snake/Royal Python CARE SHEET Nov2022.pdf"
+            "link": "/PDFCareSheets/Snake/Royal Python CARE SHEET Nov2022.pdf"
           },
           {
             "name": "Spotted Python Care Sheet",
-            "link": "/src/assets/PDFCareSheets/Snake/Spotted Python CARE SHEET Apr2023.pdf"
+            "link": "/PDFCareSheets/Snake/Spotted Python CARE SHEET Apr2023.pdf"
           },
           {
             "name": "Texas Rat Snake Care Sheet",
-            "link": "/src/assets/PDFCareSheets/Snake/Texas Rat Snake CARE SHEET 2022.pdf"
+            "link": "/PDFCareSheets/Snake/Texas Rat Snake CARE SHEET 2022.pdf"
           },
           {
             "name": "Trinket Snake Care Sheet",
-            "link": "/src/assets/PDFCareSheets/Snake/Trinket Snake CARE SHEET 2021.pdf"
+            "link": "/PDFCareSheets/Snake/Trinket Snake CARE SHEET 2021.pdf"
           },
           {
             "name": "Western Hognose Snake Care Sheet",
-            "link": "/src/assets/PDFCareSheets/Snake/Western Hognose Snake CARE SHEET Jan2023.pdf"
+            "link": "/PDFCareSheets/Snake/Western Hognose Snake CARE SHEET Jan2023.pdf"
           }
         ],
         "about": ""
@@ -128,7 +128,7 @@
         "caresheetLink": [
           {
             "name": "African Fat-Tailed Gecko Care Sheet",
-            "link": "/src/assets/PDFCareSheets/Lizard/African Fat-Tailed Gecko CARE SHEET 2021.pdf"
+            "link": "/PDFCareSheets/Lizard/African Fat-Tailed Gecko CARE SHEET 2021.pdf"
           }
 
 
@@ -147,59 +147,59 @@
 
           {
             "name": "African Bull Frog Care Sheet",
-            "link": "/src/assets/PDFCareSheets/amphibian/African Bullfrog CARE SHEET 2021.pdf"
+            "link": "/PDFCareSheets/amphibian/African Bullfrog CARE SHEET 2021.pdf"
           },
           {
             "name": "Amazon Milk Frog Care Sheet",
-            "link": "/src/assets/PDFCareSheets/amphibian/Amazon Milk Frog CARE SHEET Feb2023.pdf"
+            "link": "/PDFCareSheets/amphibian/Amazon Milk Frog CARE SHEET Feb2023.pdf"
           },
           {
             "name": "Axolotl Care Sheet",
-            "link": "/src/assets/PDFCareSheets/amphibian/Axolotl CARE SHEET 2022-m.pdf"
+            "link": "/PDFCareSheets/amphibian/Axolotl CARE SHEET 2022-m.pdf"
           },
           {
             "name": "Chubby Frog Care Sheet",
-            "link": "/src/assets/PDFCareSheets/amphibian/Chubby Frog CARE SHEET 2021.pdf"
+            "link": "/PDFCareSheets/amphibian/Chubby Frog CARE SHEET 2021.pdf"
           },
           {
             "name": "Colorado River Toad Care Sheet",
-            "link": "/src/assets/PDFCareSheets/amphibian/Colorado River Toad CARE SHEET 2021.pdf"
+            "link": "/PDFCareSheets/amphibian/Colorado River Toad CARE SHEET 2021.pdf"
           },
           {
             "name": "Dart Frog Care Sheet",
-            "link": "/src/assets/PDFCareSheets/amphibian/Dart Frog CARE SHEET 2021.pdf"
+            "link": "/PDFCareSheets/amphibian/Dart Frog CARE SHEET 2021.pdf"
           },
           {
             "name": "European Green Tree Frog Care Sheet",
-            "link": "/src/assets/PDFCareSheets/amphibian/European Green Tree Frog CARE SHEET 2022.pdf"
+            "link": "/PDFCareSheets/amphibian/European Green Tree Frog CARE SHEET 2022.pdf"
           },
           {
             "name": "Golden Tree Frog Care Sheet",
-            "link": "/src/assets/PDFCareSheets/amphibian/Golden Tree Frog CARE SHEET 2022.pdf"
+            "link": "/PDFCareSheets/amphibian/Golden Tree Frog CARE SHEET 2022.pdf"
           },
           {
             "name": "Horned Frog Care Sheet",
-            "link": "/src/assets/PDFCareSheets/amphibian/Horned Frog CARE SHEET Apr2023.pdf"
+            "link": "/PDFCareSheets/amphibian/Horned Frog CARE SHEET Apr2023.pdf"
           },
           {
             "name": "Marine Toad Care Sheet",
-            "link": "/src/assets/PDFCareSheets/amphibian/Marine Toad CARE SHEET 2021.pdf"
+            "link": "/PDFCareSheets/amphibian/Marine Toad CARE SHEET 2021.pdf"
           },
           {
             "name": "Oriental fire-bellied toad Care Sheet",
-            "link": "/src/assets/PDFCareSheets/amphibian/Oriental fire-bellied toad CARE SHEET Dec2022.pdf"
+            "link": "/PDFCareSheets/amphibian/Oriental fire-bellied toad CARE SHEET Dec2022.pdf"
           },
           {
             "name": "Red Eyed Tree Frog Care Sheet",
-            "link": "/src/assets/PDFCareSheets/amphibian/Red Eyed Tree Frog CARE SHEET Dec2022.pdf"
+            "link": "/PDFCareSheets/amphibian/Red Eyed Tree Frog CARE SHEET Dec2022.pdf"
           },
           {
             "name": "Whites Tree Frog Care Sheet",
-            "link": "/src/assets/PDFCareSheets/amphibian/Whites Tree Frog CARE SHEET Feb2023.pdf"
+            "link": "/PDFCareSheets/amphibian/Whites Tree Frog CARE SHEET Feb2023.pdf"
           },
           {
             "name": "Yellow-Bellied Toad Care Sheet",
-            "link": "/src/assets/PDFCareSheets/amphibian/Yellow-Bellied Toad CARE SHEET 2022.pdf"
+            "link": "/PDFCareSheets/amphibian/Yellow-Bellied Toad CARE SHEET 2022.pdf"
           }
         ],
         "about": ""
@@ -215,23 +215,23 @@
         "caresheetLink": [
           {
             "name": "Giant African Land Snail Care Sheet",
-            "link": "/src/assets/PDFCareSheets/invertebrates/Giant African Land Snail CARE SHEET 2022.pdf"
+            "link": "/PDFCareSheets/invertebrates/Giant African Land Snail CARE SHEET 2022.pdf"
           },
           {
             "name": "Leaf Insect Care Sheet",
-            "link": "/src/assets/PDFCareSheets/invertebrates/Leaf Insect CARE SHEET.pdf"
+            "link": "/PDFCareSheets/invertebrates/Leaf Insect CARE SHEET.pdf"
           },
           {
             "name": "Macleays Spectre Stick Insect Care Sheet",
-            "link": "/src/assets/PDFCareSheets/invertebrates/Macleays Spectre Stick Insect CARE SHEET 2022.pdf"
+            "link": "/PDFCareSheets/invertebrates/Macleays Spectre Stick Insect CARE SHEET 2022.pdf"
           },
           {
             "name": "Praying Mantis Care Sheet",
-            "link": "/src/assets/PDFCareSheets/invertebrates/Praying Mantis CARE SHEET 2021.pdf"
+            "link": "/PDFCareSheets/invertebrates/Praying Mantis CARE SHEET 2021.pdf"
           },
           {
             "name": "Sunny Stick Insect Care Sheet",
-            "link": "/src/assets/PDFCareSheets/invertebrates/Sunny Stick Insect CARE SHEET Jan2023.pdf"
+            "link": "/PDFCareSheets/invertebrates/Sunny Stick Insect CARE SHEET Jan2023.pdf"
           }
         ],
         "about": ""
@@ -247,47 +247,47 @@
         "caresheetLink": [
           {
             "name": "Arboreal Tarantula Care Sheet",
-            "link": "/src/assets/PDFCareSheets/arachnid/Arboreal Tarantula CARE SHEET 2021.pdf"
+            "link": "/PDFCareSheets/arachnid/Arboreal Tarantula CARE SHEET 2021.pdf"
           },
           {
             "name": "Brazilian Black Tarantula Care Sheet",
-            "link": "/src/assets/PDFCareSheets/arachnid/Brazilian Black Tarantula CARE SHEET 2021.pdf"
+            "link": "/PDFCareSheets/arachnid/Brazilian Black Tarantula CARE SHEET 2021.pdf"
           },
           {
             "name": "Cobalt Blue Tarantula Care Sheet",
-            "link": "/src/assets/PDFCareSheets/arachnid/Cobalt Blue Tarantula CARE SHEET 2022.pdf"
+            "link": "/PDFCareSheets/arachnid/Cobalt Blue Tarantula CARE SHEET 2022.pdf"
           },
           {
             "name": "Forest Scorpian Care Sheet",
-            "link": "/src/assets/PDFCareSheets/arachnid/Forest Scorpion CARE SHEET Jan2023.pdf"
+            "link": "/PDFCareSheets/arachnid/Forest Scorpion CARE SHEET Jan2023.pdf"
           },
           {
             "name": "Gooty Sapphire Ornamental Tarantula Care Sheet",
-            "link": "/src/assets/PDFCareSheets/arachnid/Gooty Sapphire Ornamental Tarantula CARE SHEET 2022.pdf"
+            "link": "/PDFCareSheets/arachnid/Gooty Sapphire Ornamental Tarantula CARE SHEET 2022.pdf"
           },
           {
             "name": "Greenbottle Blue Tarantula Care Sheet",
-            "link": "/src/assets/PDFCareSheets/arachnid/Greenbottle Blue Tarantula CARE SHEET Feb2023.pdf"
+            "link": "/PDFCareSheets/arachnid/Greenbottle Blue Tarantula CARE SHEET Feb2023.pdf"
           },
           {
             "name": "Jumping Spider Care Sheet",
-            "link": "/src/assets/PDFCareSheets/arachnid/Jumping Spider CARE SHEET 2022.pdf"
+            "link": "/PDFCareSheets/arachnid/Jumping Spider CARE SHEET 2022.pdf"
           },
           {
             "name": "King Baboon Tarantula Care Sheet",
-            "link": "/src/assets/PDFCareSheets/arachnid/King Baboon Tarantula CARE SHEET.pdf"
+            "link": "/PDFCareSheets/arachnid/King Baboon Tarantula CARE SHEET.pdf"
           },
           {
             "name": "Lynx Spider Care Sheet",
-            "link": "/src/assets/PDFCareSheets/arachnid/Lynx Spider CARE SHEET 2022.pdf"
+            "link": "/PDFCareSheets/arachnid/Lynx Spider CARE SHEET 2022.pdf"
           },
           {
             "name": "FSalmon Pink Bird Eating Tarantula Care Sheet",
-            "link": "/src/assets/PDFCareSheets/arachnid/Salmon Pink Bird Eating Tarantula CARE SHEET 2022.pdf"
+            "link": "/PDFCareSheets/arachnid/Salmon Pink Bird Eating Tarantula CARE SHEET 2022.pdf"
           },
           {
             "name": "Terrestrial Tarantula Care Sheet",
-            "link": "/src/assets/PDFCareSheets/arachnid/Terrestrial Tarantula CARE SHEET 2021.pdf"
+            "link": "/PDFCareSheets/arachnid/Terrestrial Tarantula CARE SHEET 2021.pdf"
           }
         ],
         "about": ""
@@ -303,19 +303,13 @@
         "caresheetLink": [
           {
             "name": "Yemen Chameleon Care Sheet",
-            "link": "/src/assets/PDFCareSheets/Lizard/Yemen (Veiled) Chameleon CARE SHEET Feb2023.pdf"
+            "link": "/PDFCareSheets/Lizard/Yemen (Veiled) Chameleon CARE SHEET Feb2023.pdf"
           },
           {
             "name": "Helmeted Iguana Care Sheet",
-            "link": "/src/assets/PDFCareSheets/Lizard/Helmeted iguana CARE SHEET 2022.pdf"
+            "link": "/PDFCareSheets/Lizard/Helmeted iguana CARE SHEET 2022.pdf"
           }
         ],
-        "about": ""
-      },
-      {
-        "name": "Iguana",
-        "image": "/iguana.jpeg",
-        "caresheetLink": [],
         "about": ""
       }
     ]
