@@ -27,7 +27,7 @@ function ReptileCard({ project }) {
             <h5 className="reptileCardLink">No Caresheet Available</h5>
           ) : (
             <h5 className="reptileCardLink">
-              <a className="reptileCardLink" href={caresheetLink} target="_blank">Care Sheet</a>
+              <a className="reptileCardLink" href={caresheetLink} target="_blank">Care Sheet - PDF Link Coming Soon</a>
             </h5>
           )}
         </Card.Link>
