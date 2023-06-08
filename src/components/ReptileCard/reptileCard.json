@@ -4,7 +4,7 @@
     "reptiles": [
       {
         "name": "Tortoises",
-        "image": "/src/assets/images/tortoise1.jpeg",
+        "image": "/tortoise1.jpeg",
         "caresheetLink": [
           {
             "name": "Hermanns Tortoise Care Sheet",
@@ -56,7 +56,7 @@
     "reptiles": [
       {
         "name": "Snakes",
-        "image": "/src/assets/images/Snake2.jpeg",
+        "image": "/Snake2.jpeg",
         "caresheetLink": [
           {
             "name": "Amazon Tree Boa Care Sheet",
@@ -124,7 +124,7 @@
     "reptiles": [
       {
         "name": "Lizards",
-        "image": "/src/assets/images/beardeddragon.jpeg",
+        "image": "/beardeddragon.jpeg",
         "caresheetLink": [
           {
             "name": "African Fat-Tailed Gecko Care Sheet",
@@ -142,7 +142,7 @@
     "reptiles": [
       {
         "name": "Amphibians",
-        "image": "src/assets/images/frog.jpeg",
+        "image": "/frog.jpeg",
         "caresheetLink": [
 
           {
@@ -211,7 +211,7 @@
     "reptiles": [
       {
         "name": "Invertebrates",
-        "image": "src/assets/images/Landsnails.jpeg",
+        "image": "/Landsnails.jpeg",
         "caresheetLink": [
           {
             "name": "Giant African Land Snail Care Sheet",
@@ -243,7 +243,7 @@
     "reptiles": [
       {
         "name": "Arachnids",
-        "image": "src/assets/images/Tarantula.jpeg",
+        "image": "/Tarantula.jpeg",
         "caresheetLink": [
           {
             "name": "Arboreal Tarantula Care Sheet",
@@ -299,13 +299,13 @@
     "reptiles": [
       {
         "name": "Chameleon",
-        "image": "src/assets/images/chameleon.jpeg",
+        "image": "/chameleon.jpeg",
         "caresheetLink": [],
         "about": ""
       },
       {
         "name": "Iguana",
-        "image": "src/assets/images/iguana.jpeg",
+        "image": "/iguana.jpeg",
         "caresheetLink": [],
         "about": ""
       }
