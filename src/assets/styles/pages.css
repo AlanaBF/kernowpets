@@ -6,6 +6,11 @@
   padding: 20px;
 }
 
+.pageText {
+  color: var(--black);
+  padding: 10px;
+}
+
 /* Home Page */
 
 .pageTitle {
@@ -16,20 +21,12 @@
 .homeSubtitle {
   text-align: center;
   color: var(--black);
-  padding-bottom: 5%;
-}
-
-.aboutMePosition {
-  display: flex;
-  margin: auto;
-  justify-content: center;
-  width: 100%;
 }
 
 .homeImage {
   width: 30%;
   border-radius: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 /* Reptile Page */

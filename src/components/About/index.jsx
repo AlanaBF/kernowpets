@@ -1,11 +1,29 @@
 import "../../assets/styles/components.css";
-
+import "../../assets/styles/pages.css";
 function About() {
   return (
     <div className="aboutContainer">
       <div className="aboutCard">
-      <p className="aboutText">Many different species of reptile in stock. <br/>Stock is always changing. <br/>If we don't have something you want, ask and we will do our best to source it.<br/> New stock in all the time</p>
-      <p className="aboutText">Reptile Boarding Available. Prices start from £35 per week. This will vary dependent on the reptile type.</p>
+        <div className="pageText">
+          <p>Explore our diverse range of reptiles in stock.</p>
+          <p>
+            With our ever-changing inventory, there's always something new to
+            discover.
+          </p>
+          <p>
+            If you can't find what you're looking for, simply ask and we'll try and source it for you.
+          </p>
+          <p>
+            New arrivals regularly, keeping our stock fresh and
+            exciting.
+          </p>
+        </div>
+        <div className="pageText">
+          <p>Take advantage of our Reptile Boarding services.</p>
+          <p>
+            Prices start from £35 per week, varying based on the reptile type.
+          </p>
+        </div>
       </div>
     </div>
   );

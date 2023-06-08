@@ -1,17 +1,3 @@
-.constructionText {
-  text-align: center;
-  background-color: var(--mint);
-  color: var(--black);
-  border: solid 10px var(--black);
-  border-radius: 20px;
-  padding: 20px;
-  margin: 50px auto;
-  font-size: 1em;
-  width: moz-fit-content;
- 
-  
-}
-
 /* Header Component */
 
 .navigation {
@@ -92,6 +78,7 @@
 }
 
 .ul-opening-times {
+  font-family: 'Gloria Hallelujah', cursive;
   font-size: 1.5em;
   font-weight: 600;
   margin: 0;
@@ -126,25 +113,11 @@
   font-size: 100%;
   text-align: center;
   border-radius: 20px;
-  padding: 1%;
-  margin-bottom: 5%;
   width: 100%;
 }
 
 .aboutContainer {
   width: 100%;
-}
-
-.aboutText {
-  text-align: center;
-  background-color: var(--teal);
-  color: var(--cream);
-  border: solid 10px var(--black);
-  border-radius: 20px;
-  padding: 20px;
-  margin-top: 50px;
-  font-size: 1em;
-  width: 100% !important;
 }
 
 /* Leaflet */
@@ -298,8 +271,13 @@ table {
 
 th,
 td {
-  padding: 8px;
   text-align: center;
+}
+
+.beardiepic {
+  width: 50%;
+ margin: auto;
+  border-radius: 20px;
 }
 
 .table-heading {

@@ -1,6 +1,6 @@
 import React from "react";
 import "../../assets/styles/components.css"; // Import the CSS file for styling
-
+import dragonandlocust from "../../assets/images/dragonandlocust.jpeg";
 const PricingGrid = () => {
   return (
     <div>
@@ -32,6 +32,14 @@ const PricingGrid = () => {
                 <td>£2.50</td>
               </tr>
               <tr>
+                <td>Tub of Springtails</td>
+                <td>£2.50</td>
+              </tr>
+              <tr>
+                <td>Tub of Fruit Flys</td>
+                <td>£2.50</td>
+              </tr>
+              <tr>
                 <td>Mix and Match 3 tubs</td>
                 <td>£7.00</td>
               </tr>
@@ -49,6 +57,15 @@ const PricingGrid = () => {
               <tr>
                 <td>Roaches Tubs</td>
                 <td>£3.95</td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <img
+                    className="beardiepic"  
+                    src={dragonandlocust}
+                    alt="Dragon and Locust"
+                  />
+                </td>
               </tr>
             </tbody>
           </table>
@@ -90,7 +107,6 @@ const PricingGrid = () => {
               </tr>
             </tbody>
           </table>
-
           <table>
             <thead>
               <tr>
@@ -136,19 +152,20 @@ const PricingGrid = () => {
                 <td>£8.90</td>
               </tr>
             </tbody>
-          </table> <div className="note-box">
-        <p>
-          Also available:<br />
-          Frozen Chicks, Guinea Pigs, Gerbils, and Rabbits.<br />
-          Price on Request.
-        </p>
-      </div>
+          </table>{" "}
+          <div className="note-box">
+            <p>
+              Also available:
+              <br />
+              Frozen Chicks, Guinea Pigs, Gerbils, and Rabbits.
+              <br />
+              Price on Request.
+            </p>
+          </div>
         </div>
       </div>
-     
     </div>
   );
 };
 
 export default PricingGrid;
-

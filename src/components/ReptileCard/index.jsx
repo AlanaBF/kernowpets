@@ -1,15 +1,19 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import "../../assets/styles/components.css"
-// Card that gives an image of the project, the name and a description and the deployed link
+import "../../assets/styles/components.css";
 
 function ReptileCard({ project }) {
-  const { name, image, caresheetLink, about } = project;
+  const { name, image, caresheetLink, about } = project.reptiles[0];
 
   return (
     <Card className="reptileCard">
       <div className="cardImagePosition">
-        <Card.Img className="cardImage" variant="top" alt={`Image for ${name}`} src={image} />
+        <Card.Img
+          className="cardImage"
+          variant="top"
+          alt={`Image for ${name}`}
+          src={image}
+        />
       </div>
       <Card.Body className="cardBodyText">
         <Card.Title>
@@ -17,23 +21,35 @@ function ReptileCard({ project }) {
             <strong>{name}</strong>
           </h4>
         </Card.Title>
-        <Card.Text className="reptileText">
-          <h5 className="reptileText">{about}</h5>
-        </Card.Text>
+        <div className="reptileText">
+          <h5>{about}</h5>
+        </div>
       </Card.Body>
       <Card.Body className="cardBodyLinks">
-        <Card.Link className="reptileCardLink">
-          {caresheetLink === "no caresheet" ? (
-            <h5 className="reptileCardLink">No Caresheet Available</h5>
-          ) : (
-            <h5 className="reptileCardLink">
-              <a className="reptileCardLink" href={caresheetLink} target="_blank">Care Sheet - PDF Link Coming Soon</a>
-            </h5>
-          )}
-        </Card.Link>
+        {caresheetLink.length === 0 ? (
+          <h5 className="reptileCardLink">No Caresheet Available</h5>
+        ) : (
+          <>
+            <h5 className="reptileCardLink">Care Sheets:</h5>
+            <div className="reptileCardLink">
+              {caresheetLink.map((sheet, index) => (
+                <div key={index}>
+                  <a
+                    href={sheet.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {sheet.name}
+                  </a>
+                </div>
+              ))}
+            </div>
+          </>
+        )}
       </Card.Body>
     </Card>
   );
 }
 
 export default ReptileCard;
+
