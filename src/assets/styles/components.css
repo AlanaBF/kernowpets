@@ -35,7 +35,7 @@
 }
 
 .navLink {
-  color: var(--cream);
+  color: var(--cream) !important;
   font-size: 60%;
   border-radius: 20px;
   width: auto;
@@ -72,7 +72,6 @@
 
 .opening-hours {
   grid-column: 2; /* Position the opening hours in the second column */
-  /* Add styling for the opening hours */
 }
 
 .ul-opening-times {
