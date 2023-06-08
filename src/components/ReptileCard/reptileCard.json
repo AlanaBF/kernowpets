@@ -32,26 +32,6 @@
     ]
   },
   {
-    "category": "Turtles",
-    "reptiles": [
-      {
-        "name": "Turtles",
-        "image": "",
-        "caresheetLink": [
-          {
-            "name": "Painted Wood Turtle Care Sheet",
-            "link": "/PDFCareSheets/Turtle/Painted Wood Turtle CARE SHEET 2022.pdf"
-          },
-          {
-            "name": "Reeves Turtle Care Sheet",
-            "link": "/PDFCareSheets/Turtle/Reeves Turtle CARE SHEET 2021.pdf"
-          }
-        ],
-        "about": ""
-      }
-    ]
-  },
-  {
     "category": "Snakes",
     "reptiles": [
       {
@@ -129,9 +109,15 @@
           {
             "name": "African Fat-Tailed Gecko Care Sheet",
             "link": "/PDFCareSheets/Lizard/African Fat-Tailed Gecko CARE SHEET 2021.pdf"
+          },
+          {
+            "name": "Yemen Chameleon Care Sheet",
+            "link": "/PDFCareSheets/Lizard/Yemen (Veiled) Chameleon CARE SHEET Feb2023.pdf"
+          },
+          {
+            "name": "Helmeted Iguana Care Sheet",
+            "link": "/PDFCareSheets/Lizard/Helmeted iguana CARE SHEET 2022.pdf"
           }
-
-
         ],
         "about": ""
       }
@@ -288,26 +274,6 @@
           {
             "name": "Terrestrial Tarantula Care Sheet",
             "link": "/PDFCareSheets/arachnid/Terrestrial Tarantula CARE SHEET 2021.pdf"
-          }
-        ],
-        "about": ""
-      }
-    ]
-  },
-  {
-    "category": "Others",
-    "reptiles": [
-      {
-        "name": "Other",
-        "image": "/chameleon.jpeg",
-        "caresheetLink": [
-          {
-            "name": "Yemen Chameleon Care Sheet",
-            "link": "/PDFCareSheets/Lizard/Yemen (Veiled) Chameleon CARE SHEET Feb2023.pdf"
-          },
-          {
-            "name": "Helmeted Iguana Care Sheet",
-            "link": "/PDFCareSheets/Lizard/Helmeted iguana CARE SHEET 2022.pdf"
           }
         ],
         "about": ""
