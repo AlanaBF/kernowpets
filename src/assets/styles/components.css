@@ -57,16 +57,14 @@
   text-align: center;
   justify-content: center;
   align-items: center;
-  padding: 10px;
 }
 
 .bg-image {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  height: 400px;
   grid-column: 1; /* Position the image in the first column */
-  border-radius: 10px;
+  width: 100%;
 }
 
 .opening-hours {
@@ -87,6 +85,7 @@
 
 .heroimage {
   height: 150px;
+  border-radius: 10px;
 }
 
 /* Media Query */
