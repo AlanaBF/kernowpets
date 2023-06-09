@@ -15,7 +15,7 @@ function Contact() {
             <p className="pageText">
               We value your feedback, inquiries, and concerns. If you have any
               questions or need assistance, we encourage you to get in touch
-              with us. We here to provide prompt and helpful support. Whether
+              with us. We are here to provide prompt and helpful support. Whether
               you have a query about our products, need guidance on reptile
               care, or want to share your experience with us, we are ready to
               assist you. Feel free to reach out to us through any of the
