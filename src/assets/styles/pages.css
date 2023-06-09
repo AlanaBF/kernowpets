@@ -77,6 +77,31 @@ span {
   align-items: center; /* Center-align the items vertically */
 }
 
+/* Gallery Page */
+.image-grid-container {
+  display: flex;
+}
+
+.image-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.image-grid img {
+  width: 150px; /* Adjust the width as needed */
+  height: 150px; /* Adjust the height as needed */
+  margin: 5px; /* Adjust the margin as needed */
+  border: 1px solid #ccc; /* Add a border */
+  cursor: pointer;
+}
+
+.image-grid img.selected {
+  width: 500px; /* Increase the width for the selected image */
+  height: 500px; /* Increase the height for the selected image */
+}
+
 /* Page Not Found */
 
 .notFoundPageContainer {
