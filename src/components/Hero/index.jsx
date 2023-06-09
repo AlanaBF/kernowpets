@@ -1,12 +1,9 @@
 import React from 'react';
-
+import shopimage from "../../assets/images/KernowPetsStore-min.jpeg"
 export default function HeroImage() {
   return (
     <div>
-      <div
-        className='p-5 text-center bg-image'
-      >
-      </div>
+<img className='bg-image' src={shopimage} alt=""></img>
     </div>
   );
 }
