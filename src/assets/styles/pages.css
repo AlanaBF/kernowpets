@@ -22,8 +22,7 @@
 /* Live Food Page */
 
 .live-food-banner {
-  width: 80%; /* Set the width of the banner */
-  border-radius: 20px; /* Add a border radius to the banner */
+  width: 100%; /* Set the width of the banner */
 }
 
 /* Contact Page */
@@ -46,7 +45,7 @@
   border: solid 10px var(--teal); /* Add a solid border */
   border-radius: 20px; /* Add a border radius to the container */
   overflow: hidden; /* Ensure the border-radius is visible */
-  margin: auto; /* Center the container horizontally */
+  margin: 10px auto; /* Center the container horizontally */
 }
 
 .contact-table {
