@@ -102,6 +102,19 @@ span {
   height: 500px; /* Increase the height for the selected image */
 }
 
+/* Media query for mobile devices */
+@media (max-width: 767px) {
+  .image-grid img {
+    width: 100%; /* Set the width to 100% of the container */
+    height: auto; /* Automatically adjust the height */
+    margin: 5px; /* Adjust the margin as needed */
+  }
+
+  .image-grid img.selected {
+    width: 100%; /* Set the width to 100% of the container */
+    height: auto; /* Automatically adjust the height */
+  }
+}
 /* Page Not Found */
 
 .notFoundPageContainer {
