@@ -1,4 +1,4 @@
-import image from "../../assets/images/android-chrome-512x512.png";
+import image from "../../assets/images/android-chrome-512x512-min.png";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";

@@ -1,6 +1,6 @@
 import React from "react";
 import "../../assets/styles/components.css"; // Import the CSS file for styling
-import dragonandlocust from "../../assets/images/dragonandlocust.jpeg";
+import dragonandlocust from "../../assets/images/dragonandlocust-min.jpeg";
 const PricingGrid = () => {
   return (
     <div>

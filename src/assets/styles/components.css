@@ -61,7 +61,7 @@
 }
 
 .bg-image {
-  background-image: url(../images/KernowPetsStore.jpeg);
+  background-image: url(../images/KernowPetsStore-min.jpeg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -236,13 +236,13 @@
 }
 
 .reptileCard {
-  padding: 20px;
+  padding: 5px;
   display: flex;
   flex-direction: column;
-  width: 25rem;
-  border-radius: 10px;
+  width: 36rem;
+  border-radius: 20px !important;
   border: 10px solid var(--teal) !important;
-  margin: 1%;
+  margin: 5px;
 }
 
 .cardBodyContent {

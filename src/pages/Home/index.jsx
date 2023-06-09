@@ -1,6 +1,6 @@
 import About from "../../components/About";
 import "../../assets/styles/pages.css";
-import image from "../../assets/images/lizard pic.jpeg";
+import image from "../../assets/images/lizard pic-min.jpeg";
 import OpeningTimes from "../../components/OpeningTimes/OpeningTimes";
 import HeroImages from "../../components/HeroImages";
 import HeroImage from "../../components/Hero";

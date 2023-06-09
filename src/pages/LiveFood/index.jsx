@@ -1,5 +1,5 @@
 import React from "react";
-import LiveFoodBanner from "../../assets/images/LivefoodBanner.jpeg"
+import LiveFoodBanner from "../../assets/images/LivefoodBanner-min.jpeg"
 import PricingGrid from "../../components/LiveFoodList";
 import "../../assets/styles/pages.css"
 function LiveFood() {
