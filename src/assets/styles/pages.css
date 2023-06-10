@@ -1,6 +1,6 @@
 /* Home Page */
 
-.homeSubtitle {
+.homeSubtitle, .subheading {
   text-align: center; /* Center-align the text */
   color: var(--black); /* Set the text color */
 }
@@ -19,10 +19,34 @@
   justify-content: space-around; /* Space the cards evenly horizontally */
 }
 
+/* stock page */
+
+.stock-image-grid-container {
+  display: flex;
+  flex-wrap: wrap; /* Allow the cards to wrap to the next line */
+  justify-content: space-evenly; /* Space the cards evenly horizontally */
+  padding: 40px;
+}
+
 /* Live Food Page */
 
 .live-food-banner {
   width: 100%; /* Set the width of the banner */
+}
+
+.contact-button {
+  background-color: var(--teal);
+  color: var(--cream);
+  border: solid 10 px var(--teal);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.contact-button:hover {
+  background-color: var(--mint);
+  border: solid 10 px var(--mint);
+  border-radius: 10px;
+  padding: 20px;
 }
 
 /* Contact Page */

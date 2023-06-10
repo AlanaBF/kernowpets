@@ -32,6 +32,10 @@ function Header() {
             <LinkContainer to="/Reptiles">
               <Nav.Link className="navLink">Reptiles</Nav.Link>
             </LinkContainer>
+             {/* Kits, Accessories, Decor */}
+           <LinkContainer to="/Products">
+              <Nav.Link className="navLink">Products</Nav.Link>
+            </LinkContainer>
            {/* Live Food */}
            <LinkContainer to="/LiveFood">
               <Nav.Link className="navLink">Live Food</Nav.Link>

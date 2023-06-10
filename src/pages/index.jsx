@@ -4,6 +4,7 @@ import NotFound from "./NotFound";
 import Reptiles from "./Reptiles";
 import LiveFood from "./LiveFood" ;
 import Gallery from "./Gallery";
+import Products from "./Products";
 
 export {
   Contact,
@@ -12,4 +13,5 @@ export {
   Reptiles,
   Gallery,
   NotFound,
+  Products
 };
