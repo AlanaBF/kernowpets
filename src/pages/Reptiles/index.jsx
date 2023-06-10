@@ -7,7 +7,7 @@ function Reptiles() {
   return (
     <div className="pageBackground">
       <div>
-        <h1 className="pageTitle">Reptiles, Mammals, Amphibians</h1>
+        <h1 className="pageTitle">Reptiles and Amphibians</h1>
         <h5 className="pageText">
           Discover an ever-changing selection of exceptional products we stock
           or have stocked. Visit or call us to find out if we have what you want
