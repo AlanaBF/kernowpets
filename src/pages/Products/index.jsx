@@ -81,7 +81,25 @@ function Products() {
       </div>
      
         <div className="items-without-images">
-          <h3 className="subheading">Lots More available in store!</h3>
+          <h3 className="subheading">Lots more available in store!</h3>
+          <li>
+            Decor
+          </li>
+          <li>
+            Bedding
+          </li>
+          <li>
+            Feed Supplements
+          </li>
+          <li>
+            Housing
+          </li>
+          <li>
+            Lighting and Heating
+          </li>
+          <li>
+            Food and Water Dishes
+          </li>
           </div>
     </div>
   );
