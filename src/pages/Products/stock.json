@@ -10,11 +10,6 @@
     "category": "Accessories"
   },
   {
-    "link": "/stock/InvertebrateStarterKit.jpeg",
-    "alt": "Invertebrate Starter Kit",
-    "category": "Starter Kits"
-  },
-  {
     "link": "/stock/LeopardGeckoAccessoryKit.jpeg",
     "alt": "Leopard Gecko Accessory Kit",
     "category": "Accessories"
@@ -35,7 +30,7 @@
     "category": "Starter Kits"
   },
   {
-    "link": "/stock/SpiderStarterKit.jpeg",
+    "link": "/stock/spiderstarterkit.jpeg",
     "alt": "Spider Starter Kit",
     "category": "Starter Kits"
   },
