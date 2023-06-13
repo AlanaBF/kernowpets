@@ -1,8 +1,10 @@
 /* Home Page */
 
 .homeSubtitle, .subheading {
-  text-align: center; /* Center-align the text */
-  color: var(--black); /* Set the text color */
+  text-align: center;
+  color: var(--black); 
+  margin: 0;
+  padding: 20px;
 }
 
 .homeImage {

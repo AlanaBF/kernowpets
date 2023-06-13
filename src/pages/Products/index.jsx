@@ -16,12 +16,13 @@ function Products() {
   };
 
   const starterKitsImages = stock.filter(
-    (image) => image.category === "Starter Kits"
+    (item) => item.category === "Starter Kits"
   );
   const accessoriesImages = stock.filter(
-    (image) => image.category === "Accessories"
+    (item) => item.category === "Accessories"
   );
-  const decorImages = stock.filter((image) => image.category === "Decor");
+
+  const itemsWithoutImages = stock.filter((item) => !item.link);
 
   return (
     <div className="pageBackground photo-gallery">
@@ -34,7 +35,10 @@ function Products() {
         for your scaly and slimy friends. Stay connected for new stock arrivals.
       </p>
       <h3 className="subheading">A selection of example stock items:</h3>
-      <p className="pageText">Interested in any of the products? Pop into the shop, phone, email or contact us on Facebook</p>
+      <p className="pageText">
+        Interested in any of the products? Pop into the shop, phone, email, or
+        contact us on Facebook
+      </p>
       <Link to="/Contact">
         <button className="contact-button">Contact Us</button>
       </Link>
@@ -42,15 +46,17 @@ function Products() {
         <div>
           <h3 className="subheading">Starter Kits</h3>
           <div className="image-grid">
-            {starterKitsImages.map((image, index) => (
+            {starterKitsImages.map((item, index) => (
               <div key={index} className="image-item">
-                <img
-                  src={image.link}
-                  alt={`Image ${index + 1}`}
-                  className={selectedImage === image.link ? "selected" : ""}
-                  onClick={() => handleImageClick(image.link)}
-                />
-                <div className="image-label">{image.alt}</div>
+                {item.link && (
+                  <img
+                    src={item.link}
+                    alt={`Image ${index + 1}`}
+                    className={selectedImage === item.link ? "selected" : ""}
+                    onClick={() => handleImageClick(item.link)}
+                  />
+                )}
+                <div className="image-label">{item.alt}</div>
               </div>
             ))}
           </div>
@@ -59,39 +65,29 @@ function Products() {
         <div>
           <h3 className="subheading">Accessories</h3>
           <div className="image-grid">
-            {accessoriesImages.map((image, index) => (
+            {accessoriesImages.map((item, index) => (
               <div key={index} className="image-item">
-                <img
-                  src={image.link}
-                  alt={`Image ${index + 1}`}
-                  className={selectedImage === image.link ? "selected" : ""}
-                  onClick={() => handleImageClick(image.link)}
-                />
-                <div className="image-label">{image.alt}</div>
-              </div>
-            ))}
-          </div>
-        </div>
-
-        <div>
-          <h3 className="subheading">Decor</h3>
-          <div className="image-grid">
-            {decorImages.map((image, index) => (
-              <div key={index} className="image-item">
-                <img
-                  src={image.link}
-                  alt={`Image ${index + 1}`}
-                  className={selectedImage === image.link ? "selected" : ""}
-                  onClick={() => handleImageClick(image.link)}
-                />
-                <div className="image-label">{image.alt}</div>
+                {item.link && (
+                  <img
+                    src={item.link}
+                    alt={`Image ${index + 1}`}
+                    className={selectedImage === item.link ? "selected" : ""}
+                    onClick={() => handleImageClick(item.link)}
+                  />
+                )}
+                <div className="image-label">{item.alt}</div>
               </div>
             ))}
           </div>
         </div>
       </div>
+     
+        <div className="items-without-images">
+          <h3 className="subheading">Lots More available in store!</h3>
+          </div>
     </div>
   );
 }
 
 export default Products;
+
