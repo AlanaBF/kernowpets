@@ -22,8 +22,6 @@ function Products() {
     (item) => item.category === "Accessories"
   );
 
-  const itemsWithoutImages = stock.filter((item) => !item.link);
-
   return (
     <div className="pageBackground photo-gallery">
       <h2 className="pageTitle">Starter Kits, Accessories, Decor</h2>
